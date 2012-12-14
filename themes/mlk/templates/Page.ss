@@ -54,15 +54,15 @@
    
         </div>
     <div id="rightColumn">
-      <div class="dayOfService" id="leftContent">
+      <div class="dayOfService leftContent">
        <h2>Day of Service</h2>
 <p>This year, in honor of Dr. Martin Luther King, Jr. Day of Service, we will focus on the areas of hunger and homelessness that affect the Iowa City and Coralville communities. We ask that when you go home for the holidays, please consider returning with a &quot;gift.&quot; <a href="http://mlk.uiowa.edu/day-of-service/">Read more...</a></p>
 </div>
-      <div class="personalPledge" id="leftContent">
+      <div class="personalPledge leftContent">
         <h2>Opening Events</h2>
-<p>We invite you to join us for the Unity March and Featured Speaker on Monday, January 16, 2012 beginning at the East Entrance of the Old Capitol Museum.  <br/><br/><a href="http://mlk.uiowa.edu/events/">View all events here...</a></p>
+<p><% control Page(events) %> $Content.Summary(50)<% end_control %> <br/><br/><a href="http://mlk.uiowa.edu/events/">View all events here...</a></p>
 </div>
-<div class="posterInfo" id="leftContent"><h2>Event Posters</h2>
+<div class="posterInfo leftContent"><h2>Event Posters</h2>
 <p>This gallery archives the quotes and artwork showcased in The University of Iowa's Martiin Luther King, Jr's Celebration of Human Rights Week.
 </p>
         <div class="highslide-gallery">
@@ -314,7 +314,24 @@
 
 </div>
 </div>
+<div class="highslide-gallery">
+<!--
+	4) This is how you mark up the thumbnail image with an anchor tag around it.
+	The anchor's href attribute defines the URL of the full-size image.
+-->
+<a href="$BaseHref/$ThemeDir/images/posters/2012.jpg" class="highslide" onclick="return hs.expand(this)">
+	<img src="$BaseHref/$ThemeDir/images/posters/2012t.gif" 
+		title="Click to enlarge" /></a>
 
+<!--
+	5 (optional). This is how you mark up the heading. The correct class name is important.
+-->
+
+<div class="highslide-heading">
+	2012 Human Rights Week Poster
+
+</div>
+</div>
 <p>
 
 
@@ -325,12 +342,10 @@
 
 </div>
         
-        <p>&nbsp;</p>
       </div>
-      <p>&nbsp;</p>
     </div>
            <div id="footer">
-             <p align="center"><img src="$BaseHref/$ThemeDir/images/DomeWordUnit.gif" alt="http://www.uiowa.edu" width="100" height="92" border="0" /></p>
+             <p align="center"><a href="http://www.uiowa.edu"><img src="$BaseHref/$ThemeDir/images/dome.png" alt="http://www.uiowa.edu" width="100" height="92" border="0" /></a></p>
              <p align="center">&copy; $Now.Year The University of Iowa, all rights reserved.             </p>
       </div>  
 </div>

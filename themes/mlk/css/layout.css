@@ -52,9 +52,10 @@ body{
 
 
 #mainContent{
-	width:628px;
+	width:608px;
 	float:left;
 	background-color: #cdcdcf;
+	padding: 10px;
 }
 
 
@@ -93,12 +94,13 @@ body{
 	font-style:italic;
 }
 
-#leftContent{
-	width:269px;
+.leftContent{
+	width:250px;
 	float:left;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #FFFFFF;
+	padding: 10px;
 }
 
 
