@@ -44,7 +44,7 @@
 <body>
 	<div id="header">
     <div id="headerHolder">
-	  <div class="main_logo"><a href="http://mlk.uiowa.edu/"><img src="$BaseHref/$ThemeDir/images/newlogo.png" width="auto" height="auto" border="0" /></a></div>
+	  <div class="main_logo"><a href="$BaseHref"><img src="$BaseHref/$ThemeDir/images/newlogo.png" width="auto" height="auto" border="0" /></a></div>
     
        <a href="http://www.uiowa.edu/"><img src="$BaseHref/$ThemeDir/images/uilogo.png" width="auto" height="auto" border="0" style="float:right; margin-top:20px;" /></a> 
     <div class="navigation">
@@ -68,10 +68,10 @@
 </div>
       <div class="personalPledge leftContent">
         <h2>Opening Events</h2>
-<p><% control Page(events) %> $Content.Summary(50)<% end_control %> <br/><br/><a href="http://mlk.uiowa.edu/events/">View all events here...</a></p>
+<p><% control Page(events) %> $Content.FirstParagraph<% end_control %> <br/><br/><a href="http://mlk.uiowa.edu/events/">View all events here...</a></p>
 </div>
-<div class="posterInfo leftContent"><h2>Event Posters</h2>
-<p>This gallery archives the quotes and artwork showcased in The University of Iowa's Martiin Luther King, Jr's Celebration of Human Rights Week.
+<div class="posterInfo leftContent event-posters"><h2>Event Posters</h2>
+<p>This gallery archives the quotes and artwork showcased in The University of Iowa's Martin Luther King, Jr's Celebration of Human Rights Week.
 </p>
         <div class="highslide-gallery">
   <!--
