@@ -4,14 +4,16 @@
 body{
 	margin:0px;
 	background-color: #20242f;
+	background: url('http://mlk.uiowa.edu//themes/mlk/images/black-Linen.png');
 }
 
+
 #header{
-	height:100px;
+	height:130px;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #FFFFFF;
-	background-color: #948B9C;
+	background-color: #3B382F;
 }
 
 #headerHolder{
@@ -111,7 +113,7 @@ body{
 
 }
 .dayOfService{
-	height:270px;
+	height:230px;
 	background-color:#D0D081;
 }
 
@@ -124,9 +126,9 @@ body{
 	height:466px;
 	background-image: url(mlkuse2.gif);
 	width:628px;
-	border-bottom-width: 1px;
+	/*border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;*/
 	padding:0px;
 	margin-bottom:15px;
 }
@@ -142,10 +144,9 @@ body{
 }
 .navigation {
 	float: right;
-	width: 370px;
-	margin-top: 50px;
-	margin-right: 30px;
-	text-align:right;
+	width: 300px;
+	margin-top: 86px;
+	text-align:center;
 
 
 }
@@ -166,15 +167,15 @@ body{
 .navigation li a {
 	text-decoration:none;
 	color:#FFF;
-	font-size:11px;
-	font-weight:bold;
-	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	font-family:Arial, Geneva, sans-serif;
 	text-transform:uppercase;
-	color:#20242F;
+	color:#efefef;
 }
 
 .navigation li a:hover {
-	color:#FFF;
+	color:#e06060;
 }
 
 

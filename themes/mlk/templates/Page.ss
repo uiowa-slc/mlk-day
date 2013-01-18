@@ -10,7 +10,9 @@
 		<% require themedCSS(style) %> 
 		
 <script type="text/javascript" src="$BaseHref/$ThemeDir/highslide/highslide-with-gallery.js"></script>
+
 <link rel="stylesheet" type="text/css" href="$BaseHref/$ThemeDir/highslide/highslide.css" />
+<link href='http://fonts.googleapis.com/css?family=Doppio+One' rel='stylesheet' type='text/css'>
 
 
 <script type="text/javascript">
@@ -42,9 +44,13 @@
 <body>
 	<div id="header">
     <div id="headerHolder">
-	  <div class="main_logo"><a href="http://mlk.uiowa.edu/"><img src="$BaseHref/$ThemeDir/images/logo.png" width="367" height="74" border="0" /></a></div>
-    <div class="navigation"><% include Navigation %>
-</div>
+	  <div class="main_logo"><a href="http://mlk.uiowa.edu/"><img src="$BaseHref/$ThemeDir/images/newlogo.png" width="auto" height="auto" border="0" /></a></div>
+    
+       <a href="http://www.uiowa.edu/"><img src="$BaseHref/$ThemeDir/images/uilogo.png" width="auto" height="auto" border="0" style="float:right; margin-top:20px;" /></a> 
+    <div class="navigation">
+    	<% include Navigation %>
+    </div>
+
     </div>
 </div>
     <div id="wrapper">
@@ -56,7 +62,9 @@
     <div id="rightColumn">
       <div class="dayOfService leftContent">
        <h2>Day of Service</h2>
-<p>This year, in honor of Dr. Martin Luther King, Jr. Day of Service, we will focus on the areas of hunger and homelessness that affect the Iowa City and Coralville communities. We ask that when you go home for the holidays, please consider returning with a &quot;gift.&quot; <a href="http://mlk.uiowa.edu/day-of-service/">Read more...</a></p>
+<p>This year, in honor of Dr. Martin Luther King, Jr. Day of Service, we will focus on the areas of hunger and homelessness that affect the Iowa City and Coralville communities. We ask that when you go home for the holidays, please consider returning with a &quot;gift.&quot;
+	<br/><br/><a href="http://mlk.uiowa.edu/day-of-service/">[Read more]</a>
+</p>
 </div>
       <div class="personalPledge leftContent">
         <h2>Opening Events</h2>
