@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "351c3c25e8ad3f3e9bec6672374d4746",
+    "hash": "6e1da6899bca239fbd2e3d43f3bcd5f0",
     "packages": [
         {
             "name": "composer/installers",
@@ -78,6 +78,41 @@
                 "zend"
             ],
             "time": "2013-10-24 16:13:49"
+        },
+        {
+            "name": "nathancox/minify",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nathancox/silverstripe-minify.git",
+                "reference": "23a74c5bf87d0a945a7fbd6d42e7db22fc00321e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nathancox/silverstripe-minify/zipball/23a74c5bf87d0a945a7fbd6d42e7db22fc00321e",
+                "reference": "23a74c5bf87d0a945a7fbd6d42e7db22fc00321e",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": ">=3.0"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "minify"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Nathan Cox",
+                    "email": "me@nathan.net.nz"
+                }
+            ],
+            "description": "Minifies CSS requirements using Minify (http://code.google.com/p/minify/)",
+            "keywords": [
+                "minify",
+                "silverstripe"
+            ],
+            "time": "2013-11-18 22:19:29"
         },
         {
             "name": "silverstripe-themes/simple",

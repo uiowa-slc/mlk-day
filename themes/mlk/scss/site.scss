@@ -30,7 +30,8 @@ a{
 	border-radius: 0;
 }
 .navbar-brand {
-	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 5px;
 }
 .navbar-brand img{
 
@@ -137,6 +138,7 @@ a{
 	@media screen and (min-width: 768px){
 		float: right;
 		line-height: 1.2;
+		margin-top: 75px;
 	}
 
 	img {
@@ -208,7 +210,7 @@ a{
 
 	@media screen and (min-width: 768px){
 		background-size: auto;
-		height: 506px;
+		height: 800px;
 
 	}
 
