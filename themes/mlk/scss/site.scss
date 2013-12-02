@@ -1,0 +1,349 @@
+/* Colors */
+
+$red: #ff2b06;
+$gold: #F1C654;
+
+
+/* Bootstrap overrides: */
+
+body{
+	font-family: 'Helvetica', 'Arial', sans;
+	padding-top: 60px;
+	background: #000;
+	color: white;
+
+	@media screen and (min-width: 768px){
+		padding-top: 68px;
+	}
+}
+
+body.modal-open {
+		margin: 0; /* why is this defaulted to margin-left: 15 ???? */
+	}
+h1{
+
+}
+a{ 
+	color: #e9b77f;
+}
+.btn {
+	border-radius: 0;
+}
+.navbar-brand {
+	padding: 5px;
+}
+.navbar-brand img{
+
+
+
+		width: 300px;
+		height: 33px;
+
+	@media screen and (min-width: 768px){
+		width: 500px;
+		height: 55px;
+
+
+	}
+
+}
+.nav>li a{
+
+	&:hover, &:focus {
+		color: lighten($red, 10);
+		text-shadow: 0 1px 0 white;
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #ffffff 0%,#efefef 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #ffffff 0%,#efefef 100%); /* W3C */
+	}
+
+	@media screen and (min-width: 768px){
+		padding-top: 37px;
+		padding-bottom: 10px;
+		font-size: 1.2em;
+
+	}
+}
+
+
+.navbar {
+	/*background: rgba(255,255,255,0.95);*/
+	background: rgba(32, 32, 32, 0.96);
+	box-shadow: 0px 1px 3px rgba(51, 51, 51, 0.19);
+	/*border-bottom: 1px solid #ddd;*/
+}
+.navbar-nav {
+
+	@media (min-width: 768px){
+		float: right;
+	}
+
+}
+
+.icon-bar {
+	background: #e9b77f;
+}
+.navbar-collapse {
+	/*background: white;*/
+}
+.navbar-toggle {
+
+}
+
+/* Additional Styles */
+.container.intro {
+	
+	background: white;
+	@media screen and (min-width: 768px){
+		margin-top: -50px;
+	}
+}
+
+.hero-text-container{
+	background: rgba(51, 51, 51, 0.05);
+	padding: 10px 0;
+	@media screen and (min-width: 768px){
+		background: none;
+	
+	}
+
+}
+
+.hero-text {
+	font-size: 3em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0 2px 0 rgba(0,0,0,0.4);
+
+	@media screen and (min-width: 768px){
+		font-size: 6em;
+	}
+	@media screen and (min-width: 1024px){
+		font-size: 7em;
+	}}
+
+.hero-text.left{
+	color: $gold;
+	@media screen and (min-width: 768px){
+		margin-top: 0.3em;
+	}
+}
+
+.hero-text.right {
+	@media screen and (min-width: 768px){
+		float: right;
+		line-height: 1.2;
+	}
+
+	img {
+		max-width: 75%;
+		float: right;
+	}
+}
+
+.hero-text {
+
+	.ideas {
+		display: block;
+	}
+
+	.date, .location {
+		display: block;
+
+	}
+
+
+	.date {	
+		color: white;
+		font-size: 0.6em;
+		@media screen and (min-width: 768px){
+			text-align: right;
+		}
+		@media screen and (min-width: 1024px){
+			font-size: 0.7em
+		}
+	}
+
+	.location {
+		font-size: 0.4em;
+
+		@media screen and (min-width: 1024px){
+			font-size: 0.5em;
+			text-align: right;
+		}
+	}
+
+	.buy-tickets {
+		color: $red;
+		background: white;
+		font-size:0.4em;
+		text-shadow: none;
+		padding: 0.2em;
+		@media screen and (min-width: 768px){
+		display: block;
+		float: right;
+		font-size: 0.5em;
+
+		a {
+			&:hover{
+			color: darken($red,10);
+			text-decoration: none;
+			}
+		}
+
+		}
+	}
+}
+
+.bg-container {
+	background-image: url('../images/bg.jpg');
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: cover;
+
+	@media screen and (min-width: 768px){
+		background-size: auto;
+		height: 506px;
+
+	}
+
+}
+
+.container.intro, .container.main-content {
+		font-size: 1.3em;
+		h1{
+			color: $red;
+
+		}
+		h1[id]{
+				padding-top: 238px;
+
+			@media screen and (min-width: 1024px){
+				padding-top: 90px;
+			}
+		}
+		.content-block {
+
+			@media screen and (min-width: 1024px){
+			padding-top: 120px;
+			padding-bottom: 120px;
+			}
+		}
+
+		.content-block h3:first-child{
+			margin-top: 0;
+			padding-top: 0;
+		}
+
+
+
+		section{
+			/*border-bottom: 1px solid #eee;*/
+			padding-bottom: 1em;
+		}
+		section.first h1[id]{
+			padding-top: 0;
+		}
+
+		section.first .content-block{
+			padding-top: 20px;
+		}
+		hr{ }
+
+		#speaker-list .col-sm-3 img{
+			width:100%;
+
+
+		}
+
+	.speaker-title {
+		clear: both;
+	}
+	.speaker-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: justify;
+	}
+	.speaker-list:after { /* http://www.barrelny.com/blog/text-align-justify-and-rwd/ */
+		content: '';
+		display: inline-block;
+		width: 100%;
+	}
+	.speaker-list li {
+		margin-bottom: 1em;
+		vertical-align: top;
+		text-align: left;
+		@media screen and (min-width: 480px) {
+			display: inline-block;
+			width: 48%;
+		}
+		@media screen and (min-width: 768px) {
+			width: 23%;
+		}
+	}
+	.speaker-list .filler {
+		height: 0;
+		margin: 0;
+	}
+	.speaker-img {
+		width: 100%;
+	}
+	.speaker-link {
+		display: block;
+		margin-bottom: 0.1em;
+		position: relative;
+	}
+	.speaker-link:before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+	}
+	.speaker-link:hover:before {
+		
+	}
+	.speaker-name {margin: 0;}
+	.speaker-position {
+		display: block;
+	}
+	.speaker-name {
+		margin: 0;
+	}
+
+}
+
+.speaker-popup img{
+	float: right;
+	padding: 10px;
+	width: 30%;
+}
+
+.modal-content{
+	border-radius: 0;
+}
+
+footer {
+	color: #979797;
+}
+
+.sponsor-logo {
+	width: 70%;
+	@media screen and (min-width: 1024px){
+		width: 100%
+	}
+}
+.sponsor-logo.csil{
+		@media screen and (min-width: 768px){
+			margin-top: 20px;
+		}
+	}
