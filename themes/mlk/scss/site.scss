@@ -7,10 +7,10 @@ $gold: #F1C654;
 /* Bootstrap overrides: */
 
 body{
-	font-family: 'Helvetica', 'Arial', sans;
+	
 	padding-top: 60px;
 	background: #000;
-	color: white;
+	color: rgba(32, 32, 32, 0.96);
 
 	@media screen and (min-width: 768px){
 		padding-top: 68px;
@@ -97,8 +97,12 @@ a{
 
 /* Additional Styles */
 .container.intro {
-	
-	background: white;
+	width: 100%;
+	border-top: #008f8f solid 10px;
+	h1 {
+		color: #008f8f;
+	}
+	background-image:url(../images/PaperMLKBackground.png); 
 	@media screen and (min-width: 768px){
 		margin-top: -50px;
 	}
@@ -216,12 +220,13 @@ a{
 
 }
 
+.SectionContainer{
+	margin: auto;
+}
+
 .container.intro, .container.main-content {
 		font-size: 1.3em;
-		h1{
-			color: $red;
-
-		}
+		
 		h1[id]{
 				padding-top: 238px;
 

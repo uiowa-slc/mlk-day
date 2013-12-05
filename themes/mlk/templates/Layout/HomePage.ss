@@ -8,6 +8,7 @@
 </div>
 
 <div class="container intro">
+	<div class="SectionContainer">
 	<% loop Sections %>
 		<section class="row $URLSegment $FirstLast">
 	   		<div class="col-md-3">
@@ -22,6 +23,7 @@
 		</section><!-- end .row -->
 		<hr />
 	<% end_loop %>
+	</div>
 	<% include Footer %>
 </div>
 
