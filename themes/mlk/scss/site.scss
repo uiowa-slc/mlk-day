@@ -96,6 +96,7 @@ a{
 }
 
 /* Additional Styles */
+
 .container.intro {
 	width: 100%;
 	border-top: #008f8f solid 10px;
@@ -103,6 +104,11 @@ a{
 		color: #008f8f;
 	}
 	background-image:url(../images/PaperMLKBackground.png); 
+	background-position-x: 50%;
+	background-repeat: no-repeat;
+	background-color: #d7b291;
+	background-size: cover;
+	
 	@media screen and (min-width: 768px){
 		margin-top: -50px;
 	}
@@ -254,12 +260,10 @@ a{
 			padding-bottom: 1em;
 		}
 		section.first h1[id]{
-			padding-top: 0;
+			
 		}
 
-		section.first .content-block{
-			padding-top: 20px;
-		}
+	
 		hr{ }
 
 		#speaker-list .col-sm-3 img{
