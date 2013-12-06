@@ -10,10 +10,11 @@ $blue: #00A79D;
 /* Bootstrap overrides: */
 
 body{
+
 	font-family: 'Montserrat', 'Maax', 'Gotham' sans-serif;
 	padding-top: 60px;
 	background: #000;
-	color: white;
+	color: rgba(32, 32, 32, 0.96);
 
 	@media screen and (min-width: 768px){
 		padding-top: 68px;
@@ -89,9 +90,19 @@ a{
 }
 
 /* Additional Styles */
+
 .container.intro {
+	width: 100%;
+	border-top: #008f8f solid 10px;
+	h1 {
+		color: #008f8f;
+	}
+	background-image:url(../images/PaperMLKBackground.png); 
+	background-position-x: 50%;
+	background-repeat: no-repeat;
+	background-color: #d7b291;
+	background-size: cover;
 	
-	background: white;
 	@media screen and (min-width: 768px){
 		margin-top: -50px;
 	}
@@ -237,12 +248,13 @@ a{
 
 }
 
+.SectionContainer{
+	margin: auto;
+}
+
 .container.intro, .container.main-content {
 		font-size: 1.3em;
-		h1{
-			color: $red;
-
-		}
+		
 		h1[id]{
 				padding-top: 238px;
 
@@ -270,12 +282,10 @@ a{
 			padding-bottom: 1em;
 		}
 		section.first h1[id]{
-			padding-top: 0;
+			
 		}
 
-		section.first .content-block{
-			padding-top: 20px;
-		}
+	
 		hr{ }
 
 		#speaker-list .col-sm-3 img{

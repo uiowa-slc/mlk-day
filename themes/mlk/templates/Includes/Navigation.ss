@@ -15,7 +15,7 @@
         <% loop $Menu(2) %>
           <li>
       
-            <a href="$TedLink">$Title</a>
+            <a href="$SectionLink">$Title</a>
             
           </li>
 

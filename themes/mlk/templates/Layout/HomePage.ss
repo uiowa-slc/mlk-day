@@ -10,25 +10,25 @@
     		<div class="clearfix"></div>
     	</div>
 </div>
-
-<div class="container intro">
-	<% loop Sections %>
-		<section class="row $URLSegment $FirstLast">
-	   		<div class="col-md-3">
-	   			<h1 id="$URLSegment">$Title</h1>
-	   		</div>
-	    	<div class="col-md-9 content-block">
-	    		$Content
-	    		<% if $ClassName = "TedSpeakerSection" %>
-	    			<% include TedSpeakerList %>
-	    		<% end_if %>
-	    	</div><!-- end .span9 -->
-		</section><!-- end .row -->
-		<hr />
-	<% end_loop %>
-	<% include Footer %>
+<div class="gradient">
+	<div class= "container intro">
+		<div class="container">
+		
+			<% loop Sections %>
+				<section class="row $URLSegment $FirstLast">
+			   		<div class="col-md-3">
+			   			<h1 id="$URLSegment">$Title</h1>
+			   		</div>
+			    	<div class="col-md-9 content-block">
+			    		$Content
+			    	</div><!-- end .span9 -->
+				</section><!-- end .row -->
+				<hr />
+			<% end_loop %>
+		
+		</div>
+	</div>
 </div>
-
  <% loop Speakers %>
 <!-- Modal -->
   <div class="modal fade speaker-popup" id="modal-speaker-{$ID}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
