@@ -2,12 +2,15 @@
 
 $red: #ff2b06;
 $gold: #F1C654;
+$darkBrown: rgba(32, 32, 32, 0.96);
+$lightBrown: #E9B77F;
+$blue: #00A79D;
 
 
 /* Bootstrap overrides: */
 
 body{
-	font-family: 'Helvetica', 'Arial', sans;
+	font-family: 'Montserrat', 'Maax', 'Gotham' sans-serif;
 	padding-top: 60px;
 	background: #000;
 	color: white;
@@ -20,11 +23,12 @@ body{
 body.modal-open {
 		margin: 0; /* why is this defaulted to margin-left: 15 ???? */
 	}
-h1{
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Montserrat', 'Maax', 'Gotham' sans-serif;	
 }
 a{ 
-	color: #e9b77f;
+	color: $lightBrown;
 }
 .btn {
 	border-radius: 0;
@@ -34,32 +38,21 @@ a{
 	padding-bottom: 5px;
 }
 .navbar-brand img{
-
-
-
 		width: 300px;
 		height: 33px;
 
 	@media screen and (min-width: 768px){
-		width: 500px;
-		height: 55px;
-
-
+		width: 450px;
+		height: 50px;
 	}
 
 }
 .nav>li a{
 
 	&:hover, &:focus {
-		color: lighten($red, 10);
-		text-shadow: 0 1px 0 white;
-		background: #ffffff; /* Old browsers */
-		background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top, #ffffff 0%,#efefef 100%); /* IE10+ */
-		background: linear-gradient(to bottom, #ffffff 0%,#efefef 100%); /* W3C */
+		background: rgba(54, 52, 52, 0.96);
+		color: lighten($lightBrown, 20);
+
 	}
 
 	@media screen and (min-width: 768px){
@@ -73,7 +66,7 @@ a{
 
 .navbar {
 	/*background: rgba(255,255,255,0.95);*/
-	background: rgba(32, 32, 32, 0.96);
+	background: $darkBrown;
 	box-shadow: 0px 1px 3px rgba(51, 51, 51, 0.19);
 	/*border-bottom: 1px solid #ddd;*/
 }
@@ -115,17 +108,40 @@ a{
 }
 
 .hero-text {
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: bold;
 	color: white;
 	text-shadow: 0 2px 0 rgba(0,0,0,0.4);
 
 	@media screen and (min-width: 768px){
-		font-size: 6em;
+		
 	}
 	@media screen and (min-width: 1024px){
-		font-size: 7em;
-	}}
+		
+	}
+
+	.hero-links{
+		clear: both;
+		margin-top: 5%;
+		float: right;
+		width: 75%;
+
+
+		a {
+			color: white;
+			background: $blue;
+			text-transform: uppercase;
+			display: block;
+			float: right;
+			margin: 1%;
+			padding: 1%;
+
+		}
+
+	}
+
+
+}
 
 .hero-text.left{
 	color: $gold;
@@ -144,6 +160,11 @@ a{
 	img {
 		max-width: 75%;
 		float: right;
+
+		@media screen and (min-width: 768px){
+			margin-top: 5%;
+		}
+
 	}
 }
 

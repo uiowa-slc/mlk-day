@@ -10,8 +10,9 @@
 	<link rel="shortcut icon" href="/favicon.ico" />
 	
 
-	<title>$Title - TedXUIowa - The University of Iowa</title>
+	<title>Martin Luther King, Jr. Day of Service - The University of Iowa</title>
 
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="division-bar/css/_division-bar.css" />
 
 	<!--[if lt IE 9]>
