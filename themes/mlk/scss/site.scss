@@ -4,6 +4,7 @@ $red: #ff2b06;
 $gold: #F1C654;
 $darkBrown: rgba(32, 32, 32, 0.96);
 $lightBrown: #E9B77F;
+$brown: #936848;
 $blue: #00A79D;
 
 
@@ -29,7 +30,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Montserrat', 'Maax', 'Gotham' sans-serif;	
 }
 a{ 
-	color: $lightBrown;
+	color: darken($blue, 10);
+}
+hr {
+	border-top: 1px solid $lightBrown;
 }
 .btn {
 	border-radius: 0;
@@ -52,7 +56,7 @@ a{
 
 	&:hover, &:focus {
 		background: rgba(54, 52, 52, 0.96);
-		color: lighten($lightBrown, 20);
+		color: lighten(#92623E, 20);
 
 	}
 
@@ -149,6 +153,11 @@ a{
 
 		}
 
+		.soon {
+			float: right;
+			margin: 1%;
+		}
+
 	}
 
 
@@ -162,6 +171,7 @@ a{
 }
 
 .hero-text.right {
+	color: white;
 	@media screen and (min-width: 768px){
 		float: right;
 		line-height: 1.2;
@@ -171,7 +181,6 @@ a{
 	img {
 		max-width: 75%;
 		float: right;
-
 		@media screen and (min-width: 768px){
 			margin-top: 5%;
 		}
@@ -227,7 +236,7 @@ a{
 			color: darken($red,10);
 			text-decoration: none;
 			}
-		}
+		}  
 
 		}
 	}
@@ -366,7 +375,8 @@ a{
 }
 
 footer {
-	color: #979797;
+	color: $brown;
+	margin-top: 5%;
 }
 
 .sponsor-logo {
