@@ -21,6 +21,13 @@ class Section extends Page {
 		return $f;
 	}
 
+	public function SectionLink(){
+		$base = Director::baseURL();
+
+		return $base.'#'.$this->URLSegment;
+
+	}
+
 
 }
 class Section_Controller extends Page_Controller {

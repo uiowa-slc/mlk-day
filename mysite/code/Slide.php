@@ -1,5 +1,5 @@
 <?php
-class Poster extends DataObject {
+class Slide extends DataObject {
 
 	private static $db = array(
 

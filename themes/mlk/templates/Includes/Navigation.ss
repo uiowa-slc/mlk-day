@@ -7,23 +7,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="http://csil.uiowa.edu/tedx/" class="navbar-brand"><img src="{$ThemeDir}/images/logo.png" /></a>
+      <a href="{$BaseHref}" class="navbar-brand"><img src="{$ThemeDir}/images/logo.png" /></a>
     </div>
     <% if Menu(2) %>
     <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" style="height: 1px;" id="nav-spy">
 
      
       <ul class="nav navbar-nav">
-
         <% loop $Menu(2) %>
           <li>
-      
             <a href="$SectionLink">$Title</a>
-            
           </li>
-
         <% end_loop %>
-        
       </ul>
       
     </nav>

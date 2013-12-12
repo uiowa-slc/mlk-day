@@ -1,5 +1,5 @@
 <?php
-class PosterSection extends Section {
+class SlideshowSection extends Section {
 
 	private static $db = array(
 
@@ -12,6 +12,7 @@ class PosterSection extends Section {
 	private static $belongs_many_many = array (
 	);
 	private static $has_many = array(
+		"Slides" => "Slide"
 	);
 
 
@@ -30,7 +31,7 @@ class PosterSection extends Section {
 
 
 }
-class PosterSection_Controller extends Section_Controller {
+class SlideshowSection_Controller extends Section_Controller {
 
 	/**
 	 * An array of actions that can be accessed via a request. Each array element should be an action name, and the
