@@ -11,7 +11,6 @@
     		<div class="clearfix"></div>
     	</div>
 </div>
-<div class="gradient">
 	<div class= "container main-content">
 		<div class="container">
 		
@@ -32,7 +31,6 @@
 		
 		</div>
 	</div>
-</div>
  <% loop Speakers %>
 <!-- Modal -->
   <div class="modal fade speaker-popup" id="modal-speaker-{$ID}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

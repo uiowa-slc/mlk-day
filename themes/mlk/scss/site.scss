@@ -66,9 +66,6 @@ ul{
 		color: lighten($lightBrown, 5);
 
 	}
-
-	padding-top:20px;
-	padding-bottom: 3px;
 	font-size: 0.9em;
 
 	@media screen and (min-width: 1024px){
@@ -319,14 +316,14 @@ ul{
 		section.first h1[id]{
 			padding-top: 0;
 
-			@media screen and (min-width: 1024px){
+			@media screen and (min-width: 990px){
 					padding-top: 90px;
 				}			
 
 		}
 
 		.content-block {
-			@media screen and (min-width: 1024px){
+			@media screen and (min-width: 990px){
 			padding-top: 100px;
 			}
 		}
