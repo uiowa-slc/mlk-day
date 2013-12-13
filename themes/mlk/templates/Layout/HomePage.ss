@@ -4,9 +4,8 @@
           <img src="{$ThemeDir}/images/tagline.png" alt="Life's most persistent and urgent question is: What are you doing for others? - Dr. Martin Luther King, Jr." />
 
           <div class="hero-links">
-            <p class="soon">Please check back soon for more information. </p>
-            <!--<a href="#events">Events</a>
-            <a href="#posters">See What We're Doing</a>-->
+           <a href="#events">Events</a>
+            <a href="#your-posters">See Your Posters</a>
           </div>
     		</div>
     		<div class="clearfix"></div>

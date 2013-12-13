@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="{$BaseHref}" class="navbar-brand"><img src="{$ThemeDir}/images/logo.png" /></a>
+      <a href="#" class="navbar-brand"><img src="{$ThemeDir}/images/logo.png" /></a>
     </div>
     <% if Menu(2) %>
     <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" id="nav-main" style="height: 1px;" id="nav-spy">
