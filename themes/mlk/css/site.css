@@ -344,7 +344,7 @@ ul {
 @media screen and (min-width: 990px) {
   /* line 325, ../scss/site.scss */
   .container.main-content .content-block {
-    padding-top: 100px;
+    padding-top: 90px;
   }
 }
 /* line 330, ../scss/site.scss */
