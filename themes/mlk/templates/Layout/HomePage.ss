@@ -13,7 +13,7 @@
     	</div>
 </div>
 <div class="gradient">
-	<div class= "container intro">
+	<div class= "container main-content">
 		<div class="container">
 		
 			<% loop Sections %>
