@@ -19,11 +19,11 @@ $paperBrown: #EDDCC7;
 body{
 
 	font-family: 'Montserrat', 'Maax', 'Gotham' sans-serif;
-	padding-top: 60px;
+	padding-top: 45px;
 	background: #000;
 	color: rgba(32, 32, 32, 0.96);
 
-	@media screen and (min-width: 768px){
+	@media screen and (min-width: 1024px){
 		padding-top: 68px;
 	}
 }
@@ -49,9 +49,9 @@ hr {
 	padding-bottom: 5px;
 }
 .navbar-brand img{
-		height: 33px;
+		height: 30px;
 
-	@media screen and (min-width: 768px){
+	@media screen and (min-width: 1024px){
 		height: 50px;
 	}
 
@@ -64,7 +64,11 @@ hr {
 
 	}
 
-	@media screen and (min-width: 768px){
+	padding-top:20px;
+	padding-bottom: 3px;
+	font-size: 0.9em;
+
+	@media screen and (min-width: 1024px){
 		padding-top: 37px;
 		padding-bottom: 10px;
 		font-size: 1em;
@@ -103,18 +107,34 @@ hr {
 	width: 100%;
 	border-top: #008f8f solid 10px;
 	h1 {
-		color: #008f8f;
+		color: $blue;
 		text-transform: uppercase;
-		font-size: 1.5em;
+		margin: 1em 0;
+
+		@media screen and (min-width: 1024px){
+			margin: 0;
+		}
+
+
 	}
+
+	h2 {
+		color: $brown;
+	}
+
+	h3 {
+		color: darken($brown,15);
+	}
+
+
 	background-image:url(../images/PaperMLKBackground.png); 
 	background-position-x: 50%;
 	background-repeat: repeat-y;
 	background-color: black;
 
-	-webkit-box-shadow: inset 0px 14px 33px -11px rgba(34, 20, 9, 0.64);
-	-moz-box-shadow: inset 0px 14px 33px -11px rgba(34, 20, 9, 0.64);
-	box-shadow: inset 0px 14px 33px -11px rgba(34, 20, 9, 0.64);
+	-webkit-box-shadow: inset 0px 14px 33px -11px rgba(34, 20, 9, 0.43);
+	-moz-box-shadow: inset 0px 14px 33px -11px rgba(34, 20, 9, 0.43);
+	box-shadow: inset 0px 14px 33px -11px rgba(34, 20, 9, 0.43);
 	
 }
 
@@ -251,7 +271,7 @@ hr {
 		font-size: 1.3em;
 		
 		h1[id]{
-				padding-top: 238px;
+				padding-top: 60px;
 
 			@media screen and (min-width: 1024px){
 				padding-top: 90px;
@@ -259,8 +279,8 @@ hr {
 		}
 		.content-block {
 			@media screen and (min-width: 1024px){
-			padding-top: 110px;
-			padding-bottom: 110px;
+			padding-top: 100px;
+			padding-bottom: 100px;
 			}
 		}
 		.content-block h2:first-child{
