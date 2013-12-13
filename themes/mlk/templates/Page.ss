@@ -8,12 +8,8 @@
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="/favicon.ico" />
-	
-
 	<title>Martin Luther King, Jr. Day of Service - The University of Iowa</title>
-
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="division-bar/css/_division-bar.css" />
 
 	<!--[if lt IE 9]>
 		<script src="{$ThemeDir}/js/vendor/html5shiv.js"></script>
