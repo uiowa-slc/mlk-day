@@ -6,7 +6,9 @@
 		"silverstripe/cms": "3.1.2",
 		"silverstripe/framework": "3.1.2",
 		"silverstripe-themes/simple": "*",
-		"nathancox/minify": "*"
+		"nathancox/minify": "*",
+		"undefinedoffset/sortablegridfield": "*",
+		"colymba/gridfield-bulk-editing-tools": "*"
 	},
 	"config": {
 		"process-timeout": 600	

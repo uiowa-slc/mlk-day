@@ -7,3 +7,6 @@ vendor/autoload.php
 *.scssc
 themes/mlk/.sass-cache/
 assets/
+gridfield-bulk-editing-tools/
+
+sortablegridfield/

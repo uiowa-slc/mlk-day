@@ -6,6 +6,13 @@ $darkBrown: rgba(32, 32, 32, 0.96);
 $lightBrown: #E9B77F;
 $brown: #936848;
 $blue: #00A79D;
+$paperBrown: #EDDCC7;
+
+/* Main Content (for those standalone pages) */
+.main-content {
+	background-color: $paperBrown;
+}
+
 
 
 /* Bootstrap overrides: */
@@ -53,10 +60,10 @@ hr {
 
 }
 .nav>li a{
-
+	color: $lightBrown;
 	&:hover, &:focus {
 		background: rgba(54, 52, 52, 0.96);
-		color: lighten(#92623E, 20);
+		color: lighten($lightBrown, 5);
 
 	}
 
@@ -76,7 +83,6 @@ hr {
 	/*border-bottom: 1px solid #ddd;*/
 }
 .navbar-nav {
-
 	@media (min-width: 768px){
 		float: right;
 	}
@@ -298,27 +304,27 @@ hr {
 	
 		hr{ }
 
-		#speaker-list .col-sm-3 img{
+		#slideshow-list .col-sm-3 img{
 			width:100%;
 
 
 		}
 
-	.speaker-title {
+	.slideshow-title {
 		clear: both;
 	}
-	.speaker-list {
+	.slideshow-list {
 		list-style: none;
 		margin: 0;
 		padding: 0;
 		text-align: justify;
 	}
-	.speaker-list:after { /* http://www.barrelny.com/blog/text-align-justify-and-rwd/ */
+	.slideshow-list:after { /* http://www.barrelny.com/blog/text-align-justify-and-rwd/ */
 		content: '';
 		display: inline-block;
 		width: 100%;
 	}
-	.speaker-list li {
+	.slideshow-list li {
 		margin-bottom: 1em;
 		vertical-align: top;
 		text-align: left;
@@ -330,19 +336,19 @@ hr {
 			width: 23%;
 		}
 	}
-	.speaker-list .filler {
+	.slideshow-list .filler {
 		height: 0;
 		margin: 0;
 	}
-	.speaker-img {
+	.slideshow-img {
 		width: 100%;
 	}
-	.speaker-link {
+	.slideshow-link {
 		display: block;
 		margin-bottom: 0.1em;
 		position: relative;
 	}
-	.speaker-link:before {
+	.slideshow-link:before {
 		content: '';
 		position: absolute;
 		width: 100%;
@@ -352,23 +358,21 @@ hr {
 		-ms-transition: all .2s ease-in-out;
 		transition: all .2s ease-in-out;
 	}
-	.speaker-link:hover:before {
+	.slideshow-link:hover:before {
 		
 	}
-	.speaker-name {margin: 0;}
-	.speaker-position {
+	.slideshow-name {margin: 0;}
+	.slideshow-position {
 		display: block;
 	}
-	.speaker-name {
+	.slideshow-name {
 		margin: 0;
 	}
 
 }
 
-.speaker-popup img{
-	float: right;
-	padding: 10px;
-	width: 30%;
+.slideshow-popup img{
+
 }
 
 .modal-content{

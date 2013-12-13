@@ -2,6 +2,7 @@
 class SlideshowSection extends Section {
 
 	private static $db = array(
+		"hideSlides" => "Boolean"
 
 
 	);
@@ -19,10 +20,13 @@ class SlideshowSection extends Section {
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
 
-		$gridFieldConfig = GridFieldConfig_RecordEditor::create();
+		$gridFieldConfig = GridFieldConfig_RelationEditor::create();
 		$gridFieldConfig->addComponent(new GridFieldSortableRows('SortOrder'));
+		$gridFieldConfig->addComponent(new GridFieldBulkImageUpload());
 		
-		$gridField = new GridField("Poster", "Posters", Poster::get(), $gridFieldConfig);
+		$gridField = new GridField("Slides", "Slides", $this->Slides(), $gridFieldConfig);
+
+		$f->addFieldToTab("Root.Main", new CheckboxField("hideSlides", "Hide slides from the section, use a 'start slideshow' link instead"), "Content"); // add the grid field to a tab in the CMS	*/
 		$f->addFieldToTab("Root.Main", $gridField, "Content"); // add the grid field to a tab in the CMS	*/
 			
 

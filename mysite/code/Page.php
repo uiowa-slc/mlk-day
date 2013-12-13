@@ -40,6 +40,7 @@ class Page_Controller extends ContentController {
 		$baseFolder = Director::baseFolder();
 
 		$stylesheets[] = 'themes/bootstrap3/css/bootstrap.css';
+		$stylesheets[] = $themeDir . "/vendor/magnific/magnific-popup.css";
 	    $stylesheets[] = $themeDir . "/css/site.css";
 	   
 	    Requirements::set_combined_files_folder($themeDir. '/_combined');
@@ -47,8 +48,10 @@ class Page_Controller extends ContentController {
 
 		$scripts = array();
 		
-		$scripts[] = $themeDir . "/js/jquery-1.10.2.js";		
+		$scripts[] = $themeDir . "/vendor/jquery-1.10.2.js";
+		$scripts[] = $themeDir . "/vendor/magnific/jquery.magnific-popup.js";		
 		$scripts[] = 'themes/bootstrap3/js/bootstrap.js';
+		$scripts[] = $themeDir . "/js/init.js";
 
 		
 		Requirements::combine_files('allScripts.js', $scripts);

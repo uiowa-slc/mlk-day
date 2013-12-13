@@ -23,11 +23,12 @@
 			   		</div>
 			    	<div class="col-md-9 content-block">
 			    		$Content
+              <% include Slides %>
 			    	</div><!-- end .span9 -->
 				</section><!-- end .row -->
 				<hr />
 			<% end_loop %>
-  
+
       <% include Footer %>
 		
 		</div>
