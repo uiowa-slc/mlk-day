@@ -55,4 +55,12 @@ class Section_Controller extends Page_Controller {
 
 	}
 
+	public function index(){
+		$parent = $this->getParent();
+
+		$url = $parent->Link().'#'.$this->URLSegment;
+
+		$this->redirect($url);
+
+	}
 }

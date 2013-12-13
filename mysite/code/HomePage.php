@@ -15,8 +15,7 @@ class HomePage extends Page {
 	);
 
 	private static $allowed_children = array(
-		"Section",
-		"Page"
+		"Section"
 		);
 
 
