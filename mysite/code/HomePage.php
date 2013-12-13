@@ -16,7 +16,7 @@ class HomePage extends Page {
 
 	private static $allowed_children = array(
 		"Section"
-		);
+	);
 
 
 	public function getCMSFields(){
