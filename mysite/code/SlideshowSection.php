@@ -3,8 +3,6 @@ class SlideshowSection extends Section {
 
 	private static $db = array(
 		"hideSlides" => "Boolean"
-
-
 	);
 
 	private static $has_one = array(
