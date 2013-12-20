@@ -153,7 +153,7 @@ ul {
 }
 /* line 137, ../scss/site.scss */
 .container.main-content h3 {
-  color: #533d2d;
+  color: #BD5E19;
   font-size: 19px;
 }
 @media screen and (min-width: 1024px) {
@@ -357,68 +357,72 @@ ul {
   margin-top: 0;
   padding-top: 0;
 }
-/* line 341, ../scss/site.scss */
+/* line 339, ../scss/site.scss */
+.container.main-content .content-block hr {
+  border-top: 1px solid #C3B19C;
+}
+/* line 345, ../scss/site.scss */
 .container.main-content section {
   /*border-bottom: 1px solid #eee;*/
   padding-bottom: 60px;
 }
-/* line 350, ../scss/site.scss */
+/* line 354, ../scss/site.scss */
 .container.main-content #slideshow-list .col-sm-3 img {
   width: 100%;
 }
-/* line 356, ../scss/site.scss */
+/* line 360, ../scss/site.scss */
 .container.main-content .slideshow-title {
   clear: both;
 }
-/* line 359, ../scss/site.scss */
+/* line 363, ../scss/site.scss */
 .container.main-content .slideshow-list {
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: justify;
 }
-/* line 365, ../scss/site.scss */
+/* line 369, ../scss/site.scss */
 .container.main-content .slideshow-list:after {
   /* http://www.barrelny.com/blog/text-align-justify-and-rwd/ */
   content: '';
   display: inline-block;
   width: 100%;
 }
-/* line 370, ../scss/site.scss */
+/* line 374, ../scss/site.scss */
 .container.main-content .slideshow-list li {
   margin-bottom: 1em;
   vertical-align: top;
   text-align: left;
 }
 @media screen and (min-width: 480px) {
-  /* line 370, ../scss/site.scss */
+  /* line 374, ../scss/site.scss */
   .container.main-content .slideshow-list li {
     display: inline-block;
     width: 48%;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 370, ../scss/site.scss */
+  /* line 374, ../scss/site.scss */
   .container.main-content .slideshow-list li {
     width: 23%;
   }
 }
-/* line 382, ../scss/site.scss */
+/* line 386, ../scss/site.scss */
 .container.main-content .slideshow-list .filler {
   height: 0;
   margin: 0;
 }
-/* line 386, ../scss/site.scss */
+/* line 390, ../scss/site.scss */
 .container.main-content .slideshow-img {
   width: 100%;
 }
-/* line 389, ../scss/site.scss */
+/* line 393, ../scss/site.scss */
 .container.main-content .slideshow-link {
   display: block;
   margin-bottom: 0.1em;
   position: relative;
 }
-/* line 394, ../scss/site.scss */
+/* line 398, ../scss/site.scss */
 .container.main-content .slideshow-link:before {
   content: '';
   position: absolute;
@@ -429,43 +433,43 @@ ul {
   -ms-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-/* line 407, ../scss/site.scss */
-.container.main-content .slideshow-name {
-  margin: 0;
-}
-/* line 408, ../scss/site.scss */
-.container.main-content .slideshow-position {
-  display: block;
-}
 /* line 411, ../scss/site.scss */
 .container.main-content .slideshow-name {
   margin: 0;
 }
+/* line 412, ../scss/site.scss */
+.container.main-content .slideshow-position {
+  display: block;
+}
+/* line 415, ../scss/site.scss */
+.container.main-content .slideshow-name {
+  margin: 0;
+}
 
-/* line 421, ../scss/site.scss */
+/* line 425, ../scss/site.scss */
 .modal-content {
   border-radius: 0;
 }
 
-/* line 425, ../scss/site.scss */
+/* line 429, ../scss/site.scss */
 footer {
   color: #856148;
   margin-top: 5%;
 }
 
-/* line 430, ../scss/site.scss */
+/* line 434, ../scss/site.scss */
 .sponsor-logo {
   width: 70%;
 }
 @media screen and (min-width: 1024px) {
-  /* line 430, ../scss/site.scss */
+  /* line 434, ../scss/site.scss */
   .sponsor-logo {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 436, ../scss/site.scss */
+  /* line 440, ../scss/site.scss */
   .sponsor-logo.csil {
     margin-top: 20px;
   }
