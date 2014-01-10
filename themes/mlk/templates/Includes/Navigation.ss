@@ -1,4 +1,4 @@
-<header class="navbar navbar-fixed-top bs-docs-nav" role="banner">
+<header role="banner" data-spy="affix">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">

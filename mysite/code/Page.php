@@ -35,26 +35,22 @@ class Page_Controller extends ContentController {
 		// instead of putting Requirements calls here.  However these are 
 		// included so that our older themes still work
 
-		$stylesheets = array();
 		$themeDir = $this->owner->ThemeDir();
 		$baseFolder = Director::baseFolder();
-
-		$stylesheets[] = 'themes/bootstrap3/css/bootstrap.css';
-		$stylesheets[] = $themeDir . "/vendor/magnific/magnific-popup.css";
-	    $stylesheets[] = $themeDir . "/css/site.css";
-	   
+		Requirements::block('division-bar/css/_division-bar.css');
 	    Requirements::set_combined_files_folder($themeDir. '/_combined');
-		Requirements::combine_files('allStyles.css', $stylesheets);
 
-		$scripts = array();
+		/*$scripts = array();
 		
-		$scripts[] = $themeDir . "/vendor/jquery-1.10.2.js";
+		$scripts[] = $themeDir . "/vendor/jquery-1.10.2.js";		
+		$scripts[] = $themeDir . "/vendor/jquery-ui.js";
 		$scripts[] = $themeDir . "/vendor/magnific/jquery.magnific-popup.js";		
-		$scripts[] = 'themes/bootstrap3/js/bootstrap.js';
+		$scripts[] = $themeDir . "/vendor/bootstrap3/dist/js/sass-bootstrap.min.js";
+		$scripts[] = 'division-bar/js/division-bar.js';
 		$scripts[] = $themeDir . "/js/init.js";
 
 		
-		Requirements::combine_files('allScripts.js', $scripts);
+		Requirements::combine_files('allScripts.js', $scripts);*/
 
 	}
 

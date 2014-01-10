@@ -8,10 +8,17 @@
 		"silverstripe-themes/simple": "*",
 		"nathancox/minify": "*",
 		"undefinedoffset/sortablegridfield": "*",
-		"colymba/gridfield-bulk-editing-tools": "*"
+		"colymba/gridfield-bulk-editing-tools": "*",
+		"md/division-bar": "dev-master"
 	},
 	"config": {
 		"process-timeout": 600	
 	},
+	"repositories": [
+	    {
+	        "type": "vcs",
+	        "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar"       
+	    }
+	 ],
 	"minimum-stability": "dev"
 }

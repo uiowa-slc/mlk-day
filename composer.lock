@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "1fe4f148c71cd69f27cabc1d8b7f263a",
+    "hash": "b814692813bd2019202969d67331a5bc",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "7332ed0b8c22466eca63c252c4bf0831c6db7a04"
+                "reference": "e0d2c311b563a686e7cab70f7edcde47c38db946"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/7332ed0b8c22466eca63c252c4bf0831c6db7a04",
-                "reference": "7332ed0b8c22466eca63c252c4bf0831c6db7a04",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/e0d2c311b563a686e7cab70f7edcde47c38db946",
+                "reference": "e0d2c311b563a686e7cab70f7edcde47c38db946",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2013-12-05 17:44:56"
+            "time": "2014-01-03 08:10:49"
         },
         {
             "name": "composer/installers",
@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "a4b0baa2929e0238a87cb080c0ee9963c5747fb1"
+                "reference": "c87cfc35882eb50df3eef1734bfa52fbcd6c782c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/a4b0baa2929e0238a87cb080c0ee9963c5747fb1",
-                "reference": "a4b0baa2929e0238a87cb080c0ee9963c5747fb1",
+                "url": "https://api.github.com/repos/composer/installers/zipball/c87cfc35882eb50df3eef1734bfa52fbcd6c782c",
+                "reference": "c87cfc35882eb50df3eef1734bfa52fbcd6c782c",
                 "shasum": ""
             },
             "replace": {
@@ -88,7 +88,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
+                    "homepage": "http://dontkry.com",
                     "role": "Developer"
                 }
             ],
@@ -103,6 +103,7 @@
                 "codeigniter",
                 "concrete5",
                 "drupal",
+                "elgg",
                 "fuelphp",
                 "installer",
                 "joomla",
@@ -119,7 +120,39 @@
                 "wordpress",
                 "zend"
             ],
-            "time": "2013-12-07 19:47:46"
+            "time": "2013-12-24 18:04:46"
+        },
+        {
+            "name": "md/division-bar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar.git",
+                "reference": "084e09eb0f38c06893bafef2d72a0bc112ea110e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-bar/zipball/084e09eb0f38c06893bafef2d72a0bc112ea110e",
+                "reference": "084e09eb0f38c06893bafef2d72a0bc112ea110e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "silverstripe/cms": "3.*",
+                "silverstripe/framework": "3.*"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "description": "The University of Iowa Division of Student Life Bar",
+            "support": {
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-bar/tree/master",
+                "issues": "https://github.com/StudentLifeMarketingAndDesign/division-bar/issues"
+            },
+            "time": "2013-11-21 20:11:30"
         },
         {
             "name": "nathancox/minify",
@@ -333,9 +366,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "md/division-bar": 20
+    },
     "platform": {
         "php": ">=5.3.2"
     },

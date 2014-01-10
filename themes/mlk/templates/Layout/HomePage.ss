@@ -11,6 +11,7 @@
     		<div class="clearfix"></div>
     	</div>
 </div>
+<% include Navigation %>
 	<div class= "container main-content">
 		<div class="container">
 		
