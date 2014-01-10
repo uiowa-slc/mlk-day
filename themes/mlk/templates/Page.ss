@@ -37,8 +37,8 @@
 	<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/master.css" />
 
 	<!--[if lt IE 9]>
-		<script src="{$ThemeDir}/bower_components/html5shiv/dist/html5shiv.js"></script>
-		<script src="{$ThemeDir}/bower_components/respond/dest/respond.min.js"></script>
+		<script src="{$ThemeDir}/vendor/html5shiv/dist/html5shiv.js"></script>
+		<script src="{$ThemeDir}/vendor/respond/dest/respond.min.js"></script>
 	<![endif]-->
 
 </head>
