@@ -23,3 +23,5 @@ assets/
 division-project/
 division-bar/
 minify/
+bower_components/
+node_modules/
