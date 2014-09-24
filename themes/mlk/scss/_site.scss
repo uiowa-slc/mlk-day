@@ -40,9 +40,11 @@ header{
 	z-index: 10000;
 	background: black;
 	border-bottom: #008f8f solid 2px;
+	padding: 3px 0;
 
 	@media screen and (min-width: $screen-sm){
 		border-bottom: #008f8f solid 4px;
+		padding: 0;
 
 	}
 
@@ -62,11 +64,11 @@ header.affix{
 .navbar-brand {
 	padding-top: 3px;
 	padding-bottom: 3px;
-	padding-left: 0;
 
 	@media screen and (min-width: $screen-sm){
 		padding-top: 10px;
 		padding-bottom: 5px;
+		padding-left: 0;
 	}
 }
 
