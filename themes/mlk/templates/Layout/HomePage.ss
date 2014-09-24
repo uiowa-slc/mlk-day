@@ -13,8 +13,6 @@
 </div>
 <% include Navigation %>
 	<div class= "container main-content">
-		<div class="container">
-		
 			<% loop Sections %>
 				<section class="row $URLSegment $FirstLast">
 			   		<div class="col-md-3">
@@ -29,6 +27,4 @@
 			<% end_loop %>
 
       <% include Footer %>
-		
-		</div>
 	</div>
