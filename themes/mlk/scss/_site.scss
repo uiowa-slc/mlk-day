@@ -11,7 +11,7 @@ body{
 
 	font-family: 'Montserrat', 'Maax', 'Gotham' sans-serif;
 	/*padding-top: 45px;*/
-	background: #000;
+	background: #FCD9B1;
 	color: rgba(32, 32, 32, 0.96);
 
 	@media screen and (min-width: 1024px){
@@ -136,8 +136,6 @@ header.affix{
 /* Additional Styles */
 
 .container.main-content {
-	width: 100%;
-	
 
 	h1 {
 		color: $blue;
@@ -175,16 +173,6 @@ header.affix{
 		}		
 
 	}
-
-
-	background-image:url(../images/PaperMLKBackground.jpg); 
-	background-position-x: 50%;
-	background-repeat: repeat-y;
-	background-color: black;
-
-	-webkit-box-shadow: inset 0px 14px 33px -11px rgba(34, 20, 9, 0.43);
-	-moz-box-shadow: inset 0px 14px 33px -11px rgba(34, 20, 9, 0.43);
-	box-shadow: inset 0px 14px 33px -11px rgba(34, 20, 9, 0.43);
 	
 }
 
@@ -328,11 +316,6 @@ header.affix{
 .SectionContainer{
 	margin: auto;
 }
-/* Main Content (for those standalone pages) */
-.main-content {
-	background-color: $paperBrown;
-}
-
  .container.main-content {
 		font-size: 1em;
 
