@@ -7,24 +7,15 @@ $(document).ready(function() {
 	  	gallery:{enabled:true}
 	  });
 	});
+
+  $('#btt').affix({
+    offset: {
+      top: $('.bg-container').height()+43
+    }
+  });
+
+
 });
-
- $(function(){ 
-     var navMain = $("#nav-main");
-     navMain.on("click", "a", null, function () {
-         navMain.collapse('hide');
-     });
- });
-
-
-$('header').affix({
-      offset: {
-        top: 
-          function () {
-            return (this.bottom = $('.bg-container').height()+43);
-          }
-      }
-}); 
 
 //test
 

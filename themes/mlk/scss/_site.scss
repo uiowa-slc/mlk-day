@@ -62,7 +62,7 @@ header.affix{
 
 
 .navbar-brand {
-	padding-top: 3px;
+	padding-top: 11px;
 	padding-bottom: 3px;
 
 	@media screen and (min-width: $screen-sm){
@@ -325,10 +325,10 @@ header.affix{
 
 		
 		h1[id]{
-			padding-top: 60px;
+			padding-top: 30px;
 
 			@media screen and (min-width: 1024px){
-				padding-top: 90px;
+				padding-top: 45px;
 			}
 		}
 
@@ -336,14 +336,14 @@ header.affix{
 			padding-top: 0;
 
 			@media screen and (min-width: 990px){
-					padding-top: 90px;
+					padding-top: 45px;
 				}			
 
 		}
 
 		.content-block {
 			@media screen and (min-width: 990px){
-			padding-top: 90px;
+			padding-top: 45px;
 			}
 		}
 		.content-block h2:first-child{
@@ -363,7 +363,7 @@ header.affix{
 
 		section{
 			/*border-bottom: 1px solid #eee;*/
-			padding-bottom: 60px;
+			padding-bottom: 30px;
 		}
 		section.first h1[id]{
 			
@@ -461,3 +461,25 @@ footer {
 			margin-top: 20px;
 		}
 	}
+
+
+#btt {
+    display: block;
+    visibility: visible;
+    position: fixed;
+    bottom: 3px;
+    right: 0px;
+    text-decoration: none;
+    font-size: 24px;
+    padding: .5em;
+    z-index: 1001;
+    opacity: 0.6;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -ms-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+#btt.affix-top {
+    opacity: 0;
+}

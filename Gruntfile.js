@@ -14,7 +14,7 @@ module.exports = function(grunt) {
         src: [
           'themes/mlk/bower_components/jquery/jquery.js',
           'themes/mlk/bower_components/magnific-popup/dist/jquery.magnific-popup.js',
-          'themes/mlk/bower_components/sass-bootstrap-compass/dist/js/sass-bootstrap.min.js',
+          'themes/mlk/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
           'division-bar/js/division-bar.js',
           'themes/mlk/js/*.js'
         ],
