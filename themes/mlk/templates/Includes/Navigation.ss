@@ -1,4 +1,4 @@
-<header role="banner">
+<header role="banner" id="header">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">

@@ -50,6 +50,6 @@
 
     <script type="text/javascript" src="{$ThemeDir}/js/build/main.js"></script>
 	<% include GoogleAnalytics %>
-	<a id="btt" class="top-link" href="#"><span class="glyphicon glyphicon-circle-arrow-up"></span></a>
+	<a id="btt" class="top-link" href="#header"><span class="glyphicon glyphicon-circle-arrow-up"></span></a>
 </body>
 </html>

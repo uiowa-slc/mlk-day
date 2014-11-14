@@ -10,7 +10,7 @@ $(document).ready(function() {
 
   $('#btt').affix({
     offset: {
-      top: $('.bg-container').height()+43
+      top: $('.bg-container').height()
     }
   });
 
