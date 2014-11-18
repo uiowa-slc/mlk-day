@@ -1,0 +1,138 @@
+
+.bg-container {
+	background-image: url('../images/bg.jpg');
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 40% 0;
+	background-size: cover;
+
+	@media screen and (min-width: 768px){
+		background-position: 30% 0;
+		background-size: auto;
+		height: 700px;
+
+	}
+	@media screen and (min-width: 1224px){
+		background-position: 50% 0;
+		height: 760px;
+
+	}
+
+}
+.hero-text-container{
+	background: rgba(51, 51, 51, 0.05);
+	padding: 10px 0;
+	@media screen and (min-width: 768px){
+		background: none;
+	
+	}
+
+}
+
+.hero-text {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0 2px 0 rgba(0,0,0,0.4);
+
+	@media screen and (min-width: 768px){
+		font-size: 2em;
+		
+	}
+	@media screen and (min-width: 1024px){
+		
+	}
+
+	.hero-links{
+		clear: both;
+		margin-top: 5%;
+		float: right;
+		width: 75%;
+		text-align: center;
+
+
+
+		a {
+			color: white;
+			text-transform: uppercase;
+			display: block;
+			margin: 1%;
+			padding: 1%;
+			@media screen and (min-width: 768px){
+				background: $blue;
+				display: inline-block;
+			}
+
+
+		}
+
+		.soon {
+			float: right;
+			margin: 1%;
+			text-align: center;
+		}
+
+	}
+
+
+}
+
+.hero-text.left{
+	@media screen and (min-width: 768px){
+		margin-top: 0.3em;
+		float: left;
+	}
+}
+
+.hero-text.right {
+	@media screen and (min-width: 768px){
+		float: right;
+		line-height: 1.2;
+		margin-top: 75px;
+	}
+
+	img {
+		max-width: 75%;
+		float: right;
+		@media screen and (min-width: 768px){
+			margin-top: 5%;
+		}
+
+	}
+}
+
+.hero-text {
+
+	.ideas {
+		display: block;
+	}
+
+	.date, .location {
+		display: block;
+
+	}
+
+
+	.date {	
+		color: white;
+		font-size: 0.6em;
+		@media screen and (min-width: 768px){
+			text-align: right;
+		}
+		@media screen and (min-width: 1024px){
+			font-size: 0.7em
+		}
+	}
+
+	.location {
+		font-size: 0.4em;
+
+		@media screen and (min-width: 1024px){
+			font-size: 0.5em;
+			text-align: right;
+		}
+	}
+
+
+}
+
