@@ -23,13 +23,18 @@
 	@media screen and (min-width: $screen-sm){
 		background-position: 55% 0;
 		background-size: auto;
-		height: 700px;
+		height: 550px;
 
 	}
 	@media screen and (min-width: $screen-lg){
 		background-position: 50% 0;
-		height: 760px;
+		height: 600px;
 
+	}
+
+	@media screen and (min-width: 1400px){
+		background-position: 50% 0;
+		height: 760px;
 	}
 
 }
@@ -43,6 +48,11 @@
 
 		@media screen and (min-width: $screen-sm){
 			padding: 20px 0;
+		}
+
+		@media screen and (min-width: $screen-md){
+			
+			padding-top: 55px;
 		}
 	}
 
