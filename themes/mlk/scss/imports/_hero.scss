@@ -7,10 +7,10 @@
 	background-size: cover;
 
 	.overlay-container{
-		background: rgba(226, 223, 255, 0.47);
+		background: rgba(255, 255, 255, 0.47);
 		height: 100%;
 		@media screen and (min-width: $screen-sm){
-			background: rgba(226, 223, 255, 0.35);
+			background: rgba(255,255, 255, 0.35);
 		
 		}
 
