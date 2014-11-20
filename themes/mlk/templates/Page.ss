@@ -40,7 +40,8 @@
 		<script src="{$ThemeDir}/vendor/html5shiv/dist/html5shiv.js"></script>
 		<script src="{$ThemeDir}/vendor/respond/dest/respond.min.js"></script>
 	<![endif]-->
-
+	<script src="//use.typekit.net/nfd3eeb.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
 </head>
 
 <body>
