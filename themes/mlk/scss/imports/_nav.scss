@@ -44,9 +44,11 @@ header.affix{
 .navbar-toggle {
 	 padding: 2px 10px;
 	 
+	 margin-top: 28px
 
 	 @media screen and (min-width: $screen-sm){
 	 	padding: 9px 10px;
+	 	margin-top: 22px
 	 }
 
 	 .icon-bar{
