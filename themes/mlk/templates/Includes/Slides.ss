@@ -11,7 +11,7 @@
 	 <ul class="slideshow-list">
 		<% loop $Slides %>
 		    <li>
-				<a href="$Image.URL" class="slideshow-link"><img src="$Image.CroppedImage(250,250).URL" alt="$FirstName $LastName" class="slideshow-img"></a>
+				<a href="$Image.URL" class="slideshow-link"><img src="$Image.CroppedImage(250,250).URL" alt="MLK Photo" class="slideshow-img"></a>
 		    </li>
 		<% end_loop %>
 		    <li class="filler"></li>
