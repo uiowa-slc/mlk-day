@@ -1,5 +1,10 @@
-@import 'settings';
+@import 'imports/variables';
+
 @import '../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
 @import '../bower_components/magnific-popup/src/css/main';
 @import '../../../division-bar/css/_division-bar.css';
+
 @import 'site';
+@import 'imports/_type';
+@import 'imports/_nav';
+@import 'imports/_hero'

@@ -1,15 +1,14 @@
 <div class="bg-container">
+	<div class="overlay-container">
     	<div class="container hero-text-container">
-	    	<div class="hero-text right">
-          <img src="{$ThemeDir}/images/tagline.png" alt="Life's most persistent and urgent question is: What are you doing for others? - Dr. Martin Luther King, Jr." />
-
-          <div class="hero-links">
-           <a href="#events">Events</a>
-            <a href="#your-posters">See Your Posters</a>
-          </div>
-    		</div>
-    		<div class="clearfix"></div>
+	    	<div class="row">
+		    	<div class="col-md-7 tagline">
+		    		<img src="{$ThemeDir}/images/tagline.png" alt="We must work unceasingly to lift this nation that we love to a higher destiny, to a new plateau of compassion, to a more notable expression of humanness. - Martin Luther King, Jr." />
+		    	</div>
+	    		<div class="clearfix"></div>
+	    	</div>
     	</div>
+    </div>
 </div>
 <% include Navigation %>
 	<div class= "container main-content">
