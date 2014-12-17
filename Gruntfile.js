@@ -32,10 +32,13 @@ module.exports = function(grunt) {
  sass: {
       dist: {
         files: {
-          'themes/mlk/css/master.css' : 'themes/mlk/scss/master.scss'
+          'themes/mlk/css/master.css' : 'themes/mlk/scss/master.scss',
+          'themes/mlk/css/editor.css' : 'themes/mlk/scss/editor.scss'
         },                  // Target
         options: {              // Target options
-          style: 'compressed'
+          style: 'compressed',
+//          sourcemap: 'auto',
+          loadPath: ['themes/mlk/bower_components/bootstrap-sass-official/assets/stylesheets']
         }
       }
     },

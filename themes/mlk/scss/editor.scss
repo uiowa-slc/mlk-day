@@ -1,0 +1,17 @@
+@import "imports/variables";
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+
+.typography{
+	@import "bootstrap/scaffolding";
+	@import "bootstrap/type";
+	@import "bootstrap/tables";
+	@import "bootstrap/buttons";
+	
+	@import "imports/_type";
+
+	font-family: $font-family-base;
+	font-size: $font-size-base;
+}
