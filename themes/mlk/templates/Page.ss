@@ -34,7 +34,7 @@
 	<meta name="msapplication-TileColor" content="#FFFFFF">
 	<meta name="msapplication-TileImage" content="{$ThemeDir}/images/favicons/favicon-144.png">
 
-	<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/master.css" />
+	<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/master.css?v=2015" />
 
 	<!--[if lt IE 9]>
 		<script src="{$ThemeDir}/vendor/html5shiv/dist/html5shiv.js"></script>
