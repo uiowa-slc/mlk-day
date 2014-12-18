@@ -12,16 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "188346d52003e4a741bca2167e772c324854f72f"
+                "reference": "9592fa05615b0f3de8e093573690674469a67a86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/188346d52003e4a741bca2167e772c324854f72f",
-                "reference": "188346d52003e4a741bca2167e772c324854f72f",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/9592fa05615b0f3de8e093573690674469a67a86",
+                "reference": "9592fa05615b0f3de8e093573690674469a67a86",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/framework": "~3.1"
+                "silverstripe/framework": ">=3.1"
             },
             "type": "silverstripe-module",
             "notification-url": "https://packagist.org/downloads/",
@@ -46,7 +46,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2014-09-15 07:38:24"
+            "time": "2014-11-21 09:01:02"
         },
         {
             "name": "composer/installers",
@@ -54,12 +54,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "1273cbb768f63b6436994df1b51724f8930505eb"
+                "reference": "89d77bfbee79e16653f7162c86e602cc188471db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/1273cbb768f63b6436994df1b51724f8930505eb",
-                "reference": "1273cbb768f63b6436994df1b51724f8930505eb",
+                "url": "https://api.github.com/repos/composer/installers/zipball/89d77bfbee79e16653f7162c86e602cc188471db",
+                "reference": "89d77bfbee79e16653f7162c86e602cc188471db",
                 "shasum": ""
             },
             "replace": {
@@ -111,6 +111,7 @@
                 "codeigniter",
                 "concrete5",
                 "croogo",
+                "dokuwiki",
                 "drupal",
                 "elgg",
                 "fuelphp",
@@ -138,7 +139,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-09-20 03:53:04"
+            "time": "2014-11-29 01:29:17"
         },
         {
             "name": "md/division-bar",
@@ -146,12 +147,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar.git",
-                "reference": "40b10008641a727d6ad05c2005e17a7b50e07393"
+                "reference": "65257b10cf6a5352146dc1697b43c923856d9b92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-bar/zipball/40b10008641a727d6ad05c2005e17a7b50e07393",
-                "reference": "40b10008641a727d6ad05c2005e17a7b50e07393",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-bar/zipball/65257b10cf6a5352146dc1697b43c923856d9b92",
+                "reference": "65257b10cf6a5352146dc1697b43c923856d9b92",
                 "shasum": ""
             },
             "require": {
@@ -170,7 +171,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-bar/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-bar/issues"
             },
-            "time": "2014-06-18 14:30:05"
+            "time": "2014-12-11 17:54:52"
         },
         {
             "name": "nathancox/minify",
@@ -178,16 +179,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nathancox/silverstripe-minify.git",
-                "reference": "a3d15b1ecdec18e700a72c768d794db87375a59e"
+                "reference": "09610ae22adfb010ffb971b8b683c16c077795b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nathancox/silverstripe-minify/zipball/a3d15b1ecdec18e700a72c768d794db87375a59e",
-                "reference": "a3d15b1ecdec18e700a72c768d794db87375a59e",
+                "url": "https://api.github.com/repos/nathancox/silverstripe-minify/zipball/09610ae22adfb010ffb971b8b683c16c077795b2",
+                "reference": "09610ae22adfb010ffb971b8b683c16c077795b2",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/framework": ">=3.0"
+                "silverstripe/framework": ">=3.1"
             },
             "type": "silverstripe-module",
             "extra": {
@@ -205,7 +206,7 @@
                 "minify",
                 "silverstripe"
             ],
-            "time": "2014-06-11 04:40:01"
+            "time": "2014-11-27 20:59:48"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -345,12 +346,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/UndefinedOffset/SortableGridField.git",
-                "reference": "86d08f97574d32ec553edc2eef4bfbc181ef14f1"
+                "reference": "946ca8dc9b32a039f9bcedc774af96dd3871c758"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/86d08f97574d32ec553edc2eef4bfbc181ef14f1",
-                "reference": "86d08f97574d32ec553edc2eef4bfbc181ef14f1",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/946ca8dc9b32a039f9bcedc774af96dd3871c758",
+                "reference": "946ca8dc9b32a039f9bcedc774af96dd3871c758",
                 "shasum": ""
             },
             "require": {
@@ -377,7 +378,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2014-08-06 16:15:32"
+            "time": "2014-10-27 13:14:05"
         }
     ],
     "packages-dev": [],

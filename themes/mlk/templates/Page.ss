@@ -7,6 +7,7 @@
 
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width">
+	<% include OpenGraph %>
 	<title>Martin Luther King, Jr. Day of Service - The University of Iowa</title>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="{$ThemeDir}/images/favicons/favicon.ico">
