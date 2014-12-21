@@ -13,7 +13,7 @@
 <link rel="icon" type="image/png" href="{$ThemeDir}/images/favicons/favicon-96x96.png" sizes="96x96">
 <link rel="icon" type="image/png" href="{$ThemeDir}/images/favicons/favicon-16x16.png" sizes="16x16">
 <link rel="icon" type="image/png" href="{$ThemeDir}/images/favicons/favicon-32x32.png" sizes="32x32">
-<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileColor" content="#fbf8f8">
 <meta name="msapplication-TileImage" content="{$ThemeDir}/images/favicons/mstile-144x144.png">
 <meta name="msapplication-square70x70logo" content="{$ThemeDir}/images/favicons/mstile-70x70.png">
 <meta name="msapplication-square150x150logo" content="{$ThemeDir}/images/favicons/mstile-150x150.png">
