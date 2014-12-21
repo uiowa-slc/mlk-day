@@ -26,7 +26,7 @@
     
     $Layout
 
-    <script type="text/javascript" src="{$ThemeDir}/js/build/main.js"></script>
+    <script type="text/javascript" src="{$ThemeDir}/js/build/main.min.js"></script>
 	<% include GoogleAnalytics %>
 	<a id="btt" class="top-link" href="#header"><span class="glyphicon glyphicon-circle-arrow-up"><span style="text-indent:-9999px; display:block;">Back To The Top</span></span></a>
 </body>
