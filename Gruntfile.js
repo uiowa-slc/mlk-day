@@ -14,7 +14,7 @@ module.exports = function(grunt) {
         src: [
           'themes/mlk/bower_components/jquery/jquery.js',
           'themes/mlk/bower_components/magnific-popup/dist/jquery.magnific-popup.js',
-          'themes/mlk/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
+          'themes/mlk/bower_components/bootstrap-sass/dist/js/bootstrap.js',
           'division-bar/js/division-bar.js',
           'themes/mlk/js/*.js'
         ],
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
         options: {              // Target options
           style: 'compressed',
 //          sourcemap: 'auto',
-          loadPath: ['themes/mlk/bower_components/bootstrap-sass-official/assets/stylesheets']
+          loadPath: ['themes/mlk/bower_components/bootstrap-sass/lib/']
         }
       }
     },

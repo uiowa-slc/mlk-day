@@ -20,7 +20,7 @@ class SlideshowSection extends Section {
 
 		$gridFieldConfig = GridFieldConfig_RelationEditor::create();
 		$gridFieldConfig->addComponent(new GridFieldSortableRows('SortOrder'));
-		$gridFieldConfig->addComponent(new GridFieldBulkImageUpload());
+		$gridFieldConfig->addComponent(new GridFieldBulkUpload());
 		
 		$gridField = new GridField("Slides", "Slides", $this->Slides(), $gridFieldConfig);
 
