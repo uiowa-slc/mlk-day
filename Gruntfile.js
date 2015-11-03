@@ -38,7 +38,7 @@ module.exports = function(grunt) {
         options: {              // Target options
           style: 'compressed',
 //          sourcemap: 'auto',
-          loadPath: ['themes/mlk/bower_components/bootstrap-sass/lib/']
+          loadPath: ['themes/mlk/bower_components/bootstrap-sass/assets/stylesheets/bootstrap']
         }
       }
     },

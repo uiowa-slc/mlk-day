@@ -25,3 +25,8 @@ division-bar/
 minify/
 bower_components/
 node_modules/
+siteconfig/
+
+node_modules/grunt/node_modules/which/which.js
+
+reports/
