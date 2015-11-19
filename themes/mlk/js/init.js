@@ -7,13 +7,13 @@ $(document).ready(function() {
 	  	gallery:{enabled:true}
 	  });
 	});
-  $('.navbar-container').affix({
+ /* $('.navbar-container').affix({
     offset: { top: $('.navbar-container').offset().top }
   }).wrap(function() {
     return $('<div></div>', {
       height: $(this).outerHeight()
     });
-  });​
+  });​*/
 
   $('#btt').affix({
     offset: {
