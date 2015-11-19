@@ -7,3 +7,5 @@ After: 'framework/*','cms/*'
 # Caution: Indentation through two spaces, not tabs
 SSViewer:
   theme: 'simple'
+GDBackend:
+    default_quality: 90

@@ -7,6 +7,7 @@ class HomePage extends Page {
 	);
 
 	private static $has_one = array(
+		'CoverImage' => 'Image'
 
 	);
 	private static $belongs_many_many = array (
@@ -21,7 +22,7 @@ class HomePage extends Page {
 
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
-		
+		$f->addFieldToTab('Root.Main', new UploadField('CoverImage', 'Cover Image'));
 		return $f;
 	}
 

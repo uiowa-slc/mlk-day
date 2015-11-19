@@ -5,7 +5,7 @@
 	<% base_tag %>
 	<meta charset="utf-8">
 
-	<meta name="description" content="" />
+	<meta name="description" content="Recognition of Dr. Martin Luther King, Jr.'s birthdate has been a tradition at the University of Iowa since 1969, and the national holiday has been observed through human rights programs since its inception in 1986. In 1990 the University initiated the Human Rights convocation program. Afternoon classes were cancelled to encourage student, faculty, and staff participation in programs that encourage dialogue about diversity and reinforce the principle that the University is a forum for the free exchange of ideas. The convocation has been an opportunity for serious thinking by all of us about issues of social justice, human rights, and world peace..." />
 	<meta name="viewport" content="width=device-width">
 	<% include OpenGraph %>
 	<title>Martin Luther King, Jr. Day of Service - The University of Iowa</title>
@@ -22,10 +22,10 @@
 </head>
 
 <body>
-	<% include DivisionBar %>
+	
     
     $Layout
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="{$ThemeDir}/js/build/main.min.js"></script>
 	<% include GoogleAnalytics %>
 	<a id="btt" class="top-link" href="#header"><span class="glyphicon glyphicon-circle-arrow-up"><span class="hide-text sr-only">Back To The Top</span></span></a>

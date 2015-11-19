@@ -12,9 +12,9 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: [
-          'themes/mlk/bower_components/jquery/jquery.js',
+         'themes/mlk/bower_components/picturefill/dist/picturefill.js',
           'themes/mlk/bower_components/magnific-popup/dist/jquery.magnific-popup.js',
-          'themes/mlk/bower_components/bootstrap-sass/dist/js/bootstrap.js',
+          'themes/mlk/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
           'division-bar/js/division-bar.js',
           'themes/mlk/js/*.js'
         ],

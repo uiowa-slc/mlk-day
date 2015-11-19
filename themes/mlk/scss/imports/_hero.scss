@@ -1,37 +1,12 @@
 .bg-container {
-	background-image: url("../images/bg.jpg");
 	background-color: black;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: contain;
 
-	.overlay-container {
-		background: rgba(255, 255, 255, 0.47);
-		height: 100%;
-
-		@media screen and (min-width: $screen-sm) {
-			background: rgba(255, 255, 255, 0.35);
-		}
-
-		@media screen and (min-width: $screen-md) {
-			background: none;
-		}
-	}
-
-	@media screen and (min-width: $screen-sm) {
-		background-position: 55% 0;
-		height: 550px;
-	}
-
-	@media screen and (min-width: $screen-lg) {
-		background-position: 50% 0;
-		height: 600px;
-		background-size: contain;
-	}
-
-	@media screen and (min-width: 1400px) {
-		background-position: 50% 0;
-		height: 760px;
+	.container{
+		max-width: 1600px;
+		width: 100%;
 	}
 }
 

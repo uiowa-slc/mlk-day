@@ -28,7 +28,7 @@ $gray-lighter: lighten($gray-base, 93.5%) !default;
 
 // #eee
 
-$brand-primary: darken(#428bca, 6.5%) !default;
+$brand-primary: #b41f24 !default;
 $brand-success: #5cb85c !default;
 $brand-info: #5bc0de !default;
 $brand-warning: #f0ad4e !default;
@@ -42,7 +42,7 @@ $blue: #00A79D;
 $purple: #5750A2;
 $paperBrown: #EDDCC7;
 
-$primary-color: #f9b619;
+$primary-color: $brand-primary;
 $secondary-color: #d83427;
 
 //== Scaffolding
@@ -50,10 +50,10 @@ $secondary-color: #d83427;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg: #000 !default;
+$body-bg: #fff !default;
 
 //** Global text color on `<body>`.
-$text-color: white !default;
+$text-color: #222 !default;
 
 //** Global textual link color.
 $link-color: lighten($primary-color, 20) !default;
@@ -68,12 +68,12 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif: "proxima-nova-condensed", Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "prenton", Helvetica, Arial, sans-serif;
 $font-family-serif: "apolline", serif !default;
 
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace !default;
-$font-family-base: "proxima-nova", sans-serif !default;
+$font-family-base: $font-family-sans-serif !default;
 
 $font-size-base: 16px;
 $font-size-large: ceil($font-size-base * 1.25) !default;
@@ -110,7 +110,7 @@ $line-height-computed: floor($font-size-base * $line-height-base) !default;
 // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family: $font-family-sans-serif !default;
+$headings-font-family: "prenton-condensed" !default;
 $headings-font-weight: 500 !default;
 $headings-line-height: 1.1 !default;
 $headings-color: inherit !default;
@@ -194,6 +194,8 @@ $table-border-color: #ddd !default;
 
 $btn-font-weight: normal !default;
 
+
+
 $btn-default-color: #333 !default;
 $btn-default-bg: #eee !default;
 $btn-default-border: #ccc !default;
@@ -219,6 +221,11 @@ $btn-danger-bg: $brand-danger !default;
 $btn-danger-border: darken($btn-danger-bg, 5%) !default;
 
 $btn-link-disabled-color: $gray-light !default;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-base:         $border-radius-base;
+$btn-border-radius-large:        $border-radius-large;
+$btn-border-radius-small:        $border-radius-small;
 
 //== Forms
 //
@@ -273,6 +280,7 @@ $input-group-addon-border-color: $input-border !default;
 //** Disabled cursor for form controls and buttons.
 $cursor-disabled: not-allowed !default;
 
+$form-group-margin-bottom: 15px;
 //== Dropdowns
 //
 //## Dropdown menu container and contents.
@@ -414,7 +422,7 @@ $container-lg: $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height: 80px !default;
+$navbar-height: 100px !default;
 $navbar-margin-bottom: $line-height-computed !default;
 $navbar-border-radius: $border-radius-base !default;
 $navbar-padding-horizontal: floor($grid-gutter-width / 2) !default;
@@ -422,7 +430,7 @@ $navbar-padding-vertical: ($navbar-height - $line-height-computed) / 2 !default;
 $navbar-collapse-max-height: 340px !default;
 
 $navbar-default-color: #777 !default;
-$navbar-default-bg: #222 !default;
+$navbar-default-bg: white !default;
 $navbar-default-border: darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links

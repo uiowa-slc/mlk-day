@@ -25,3 +25,6 @@ division-bar/
 minify/
 bower_components/
 node_modules/
+.phpintel
+siteconfig/
+reports/

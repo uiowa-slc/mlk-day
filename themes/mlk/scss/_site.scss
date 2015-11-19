@@ -7,6 +7,10 @@
 	max-width: 100%;
 }
 
+.division-topbar{
+
+}
+
 body {
 	//background-image: url('../images/content-bg.jpg');
 	background-size: cover;
@@ -25,10 +29,6 @@ body.modal-open {
 	/* why is this defaulted to margin-left: 15 ???? */
 }
 
-hr {
-	border-top: 1px solid #444;
-}
-
 ul {
 	list-style-type: square;
 }
@@ -41,30 +41,35 @@ ul {
 
 .container.main-content {
 	font-size: 1em;
-
 	@media screen and (min-width: 768px) {
 		font-size: 1.3em;
 	}
-
-	h1[id] {
-		padding-top: 30px;
-
-		@media screen and (min-width: 1024px) {
-			padding-top: 45px;
-		}
+	*[id]:before { 
+	  display: block; 
+	  content: " "; 
+	  margin-top: -100px; 
+	  height: 100px; 
+	  visibility: hidden; 
 	}
+	// h1[id] {
+	// 	padding-top: 30px;
 
-	section.first h1[id] {
-		padding-top: 0;
+	// 	@media screen and (min-width: 1024px) {
+	// 		padding-top: 45px;
+	// 	}
+	// }
 
-		@media screen and (min-width: 990px) {
-			padding-top: 45px;
-		}
-	}
+	// section.first h1[id] {
+	// 	padding-top: 0;
+
+	// 	@media screen and (min-width: 990px) {
+	// 		padding-top: 45px;
+	// 	}
+	// }
 
 	.content-block {
 		@media screen and (min-width: 990px) {
-			padding-top: 45px;
+			//padding-top: 45px;
 		}
 	}
 
@@ -80,6 +85,7 @@ ul {
 
 	section {
 		/*border-bottom: 1px solid #eee;*/
+		padding-top: 30px;
 		padding-bottom: 30px;
 	}
 
