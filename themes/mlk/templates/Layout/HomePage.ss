@@ -3,7 +3,6 @@
     	<div class="container hero-text-container">
 	    	<div class="row">
 		    	<div class="col-md-7 tagline">
-		    		<img src="{$ThemeDir}/images/tagline.png" alt="We must work unceasingly to lift this nation that we love to a higher destiny, to a new plateau of compassion, to a more notable expression of humanness. - Martin Luther King, Jr." />
 		    	</div>
 	    		<div class="clearfix"></div>
 	    	</div>

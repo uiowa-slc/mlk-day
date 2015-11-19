@@ -7,13 +7,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#" class="navbar-brand"><img src="{$ThemeDir}/images/logo.png" alt="Martin Luther King Jr. Logo"/></a>
     </div>
     <% if Menu(2) %>
     <nav class="navbar-collapse bs-navbar-collapse collapse " role="navigation" id="nav-main" style="height: 1px;" id="nav-spy">
 
      
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-left">
         <% loop $Menu(2) %>
           <li>
             <a href="$SectionLink">$Title</a>
