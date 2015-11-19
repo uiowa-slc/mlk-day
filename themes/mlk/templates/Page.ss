@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width">
 	<% include OpenGraph %>
 	<title>Martin Luther King, Jr. Day of Service - The University of Iowa</title>
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
 	<% include Favicons %>
 	<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/master.css?v=2015" />
 
@@ -22,7 +22,7 @@
 </head>
 
 <body>
-	
+	<% include DivisionBar %>
     
     $Layout
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
