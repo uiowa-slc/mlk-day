@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "11cb60a037324f297e26e65c5625e76f",
-    "content-hash": "cb5c1fd83f5cd97622c016120938c1cc",
+    "hash": "c3b094514d399f6e1c5d294336ae820a",
+    "content-hash": "a02186f42c0bd5beb9886ee6c726c1ec",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -146,6 +146,38 @@
                 "zikula"
             ],
             "time": "2015-10-29 23:28:48"
+        },
+        {
+            "name": "md/ac-json-events",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
+                "reference": "c233d306b71be68291fe81ccae6bbb541ead0644"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/c233d306b71be68291fe81ccae6bbb541ead0644",
+                "reference": "c233d306b71be68291fe81ccae6bbb541ead0644",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "silverstripe/cms": "3.*",
+                "silverstripe/framework": "3.*"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "description": "After Class JSON Display Module",
+            "support": {
+                "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/master",
+                "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
+            },
+            "time": "2015-11-02 17:34:59"
         },
         {
             "name": "md/division-bar",
@@ -400,12 +432,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-siteconfig.git",
-                "reference": "82e046248f143029f498cc009486e4b5fe2fc356"
+                "reference": "721b10ac2cba156dad838c3387b1fef23f0fdacd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-siteconfig/zipball/82e046248f143029f498cc009486e4b5fe2fc356",
-                "reference": "82e046248f143029f498cc009486e4b5fe2fc356",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-siteconfig/zipball/721b10ac2cba156dad838c3387b1fef23f0fdacd",
+                "reference": "721b10ac2cba156dad838c3387b1fef23f0fdacd",
                 "shasum": ""
             },
             "require": {
@@ -434,7 +466,7 @@
                 "silverstripe",
                 "siteconfig"
             ],
-            "time": "2015-11-03 00:10:39"
+            "time": "2015-11-20 10:02:33"
         },
         {
             "name": "undefinedoffset/sortablegridfield",
@@ -481,7 +513,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "md/division-bar": 20
+        "md/division-bar": 20,
+        "md/ac-json-events": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -9,7 +9,8 @@
 		"nathancox/minify": "*",
 		"undefinedoffset/sortablegridfield": "*",
 		"colymba/gridfield-bulk-editing-tools": "*",
-		"md/division-bar": "dev-master"
+		"md/division-bar": "dev-master",
+		"md/ac-json-events": "dev-master"
 	},
 	"config": {
 		"process-timeout": 600	
@@ -17,8 +18,13 @@
 	"repositories": [
 	    {
 	        "type": "vcs",
-	        "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar"       
-	    }
+	        "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar"
+
+	    },
+	    {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events"
+        }
 	 ],
 	"minimum-stability": "dev"
 }

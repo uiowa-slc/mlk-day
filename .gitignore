@@ -28,3 +28,4 @@ node_modules/
 .phpintel
 siteconfig/
 reports/
+ac-json-events/
