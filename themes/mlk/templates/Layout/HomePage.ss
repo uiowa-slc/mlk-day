@@ -31,10 +31,12 @@
 			    		<%-- EVENT STUFF --%>
 
 				    	<% if $URLSegment=="events" %>
-							<% loop LocalistCalendar.EventList.limit(5) %>
+
+				    	<% if $LocalistCalendar.EventList %>
+							<% loop LocalistCalendar.EventList %>
 
 								<% if $Image %>
-									<img src="$Image.URL" alt="$Title">
+									<a href="$AfterClassLink"><img src="$Image.URL" alt="$Title"></a>
 								<% end_if %>
 
 
@@ -42,17 +44,19 @@
 
 								
 									<p class="eventlist-date">
+										<% if $Dates %>
 										<strong> Date & Time: </strong>
 										<% loop $Dates %>
-										<% with $StartDateTime %>
-											<time itemprop="startDate" datetime="$Format(c)">
-												$Format(l), $Format(F) $Format(j)
-											</time>
-											 <span class="eventlist-time">$Format("g:i A")<% end_with %><% if $EndTime %><% with $EndTime %>&ndash;$Format("g:i A") 
-											<% end_with %>
-										<% end_if %>
+											<% with $StartDateTime %>
+												<time itemprop="startDate" datetime="$Format(c)">
+													$Format(l), $Format(F) $Format(j)
+												</time>
+												 <span class="eventlist-time">$Format("g:i A")<% end_with %><% if $EndTime %><% with $EndTime %>&ndash;$Format("g:i A") 
+												<% end_with %>
+											<% end_if %>
 										<% end_loop %>
 										</span>
+										<% end_if %>
 									
 								
 									<br />	
@@ -82,6 +86,11 @@
 
 								<hr />	
 				    		<% end_loop %>
+				    			<% else %>
+							<p>No events currently listed. Please check back soon for the full event list.</p>
+						<% end_if %>
+
+			
 						<% end_if %>
 
 
