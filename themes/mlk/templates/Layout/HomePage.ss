@@ -32,8 +32,8 @@
 
 				    	<% if $URLSegment=="events" %>
 
-				    	<% if $LocalistCalendar.EventList %>
-							<% loop LocalistCalendar.EventList %>
+				    	<% if $LocalistCalendar.EventListBySearchTerm("MLK") %>
+							<% loop $LocalistCalendar.EventListBySearchTerm("MLK") %>
 
 								<% if $Image %>
 									<a href="$AfterClassLink"><img src="$Image.URL" alt="$Title"></a>
