@@ -35,9 +35,9 @@
 				    	<% if $LocalistCalendar.EventListBySearchTerm("MLK") %>
 							<% loop $LocalistCalendar.EventListBySearchTerm("MLK") %>
 
-								<% if $Image %>
+								<%-- if $Image %>
 									<a href="$AfterClassLink"><img src="$Image.URL" alt="$Title"></a>
-								<% end_if %>
+								<% end_if --%>
 
 
 						    	<h2><a href="$AfterClassLink">$Title </a></h2>
