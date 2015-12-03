@@ -11,7 +11,7 @@
 	<title>Martin Luther King, Jr. Day of Service - The University of Iowa</title>
 
 	<% include Favicons %>
-	<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/master.css?v=2015" />
+	<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/master.css?v=2016" />
 
 	<!--[if lt IE 9]>
 		<script src="{$ThemeDir}/vendor/html5shiv/dist/html5shiv.js"></script>
