@@ -28,6 +28,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="{$ThemeDir}/js/build/main.min.js"></script>
 	<% include GoogleAnalytics %>
-	<a id="btt" class="top-link" href="#header"><span class="glyphicon glyphicon-circle-arrow-up"><span class="hide-text sr-only">Back To The Top</span></span></a>
+	<a id="btt" class="top-link" href="#nav"><span class="glyphicon glyphicon-circle-arrow-up"><span class="hide-text sr-only">Back To The Top</span></span></a>
 </body>
 </html>
