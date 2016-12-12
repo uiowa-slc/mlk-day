@@ -1,7 +1,7 @@
 <div class="bg-container">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-12">
+			<div class="">
 
 				<% if $CoverImage %>
 						<picture class="img-responsive">
@@ -10,7 +10,7 @@
 					    <img class="img-responsive" srcset="{$CoverImage.Fill(1366,768).URL}, {$CoverImage.Fill(1366,768).URL} 2x">
 					</picture>				
 				<% else %>
-					<img class="img-responsive" src="{$ThemeDir}/images/bg.jpg" />
+					<img class="img-responsive" src="{$ThemeDir}/images/bg2017.jpg" />
 				<% end_if %>
 			</div>
 		</div>

@@ -194,8 +194,6 @@ $table-border-color: #ddd !default;
 
 $btn-font-weight: normal !default;
 
-
-
 $btn-default-color: #333 !default;
 $btn-default-bg: #eee !default;
 $btn-default-border: #ccc !default;
@@ -223,9 +221,9 @@ $btn-danger-border: darken($btn-danger-bg, 5%) !default;
 $btn-link-disabled-color: $gray-light !default;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius-base:         $border-radius-base;
-$btn-border-radius-large:        $border-radius-large;
-$btn-border-radius-small:        $border-radius-small;
+$btn-border-radius-base: $border-radius-base;
+$btn-border-radius-large: $border-radius-large;
+$btn-border-radius-small: $border-radius-small;
 
 //== Forms
 //
@@ -281,6 +279,7 @@ $input-group-addon-border-color: $input-border !default;
 $cursor-disabled: not-allowed !default;
 
 $form-group-margin-bottom: 15px;
+
 //== Dropdowns
 //
 //## Dropdown menu container and contents.
@@ -958,6 +957,7 @@ $page-header-border-color: $gray-lighter !default;
 
 //** Width of horizontal description list titles
 $dl-horizontal-offset: $component-offset-horizontal !default;
+$dl-horizontal-breakpoint: $grid-float-breakpoint !default;
 
 //** Horizontal line color.
 $hr-border: $gray-lighter !default;
