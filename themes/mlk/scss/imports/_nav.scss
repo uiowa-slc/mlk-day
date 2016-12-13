@@ -30,9 +30,12 @@ header.affix {
 
 .navbar-brand {
     max-width: 200px;
+    font-family: Besom;
+    color: #222;
+    font-size: 36px;
 
     @media screen and (min-width: $screen-md-min) {
-        max-width: 100%;
+        max-width: 80%;
         padding-top: 25px;
         padding-bottom: 25px;
     }

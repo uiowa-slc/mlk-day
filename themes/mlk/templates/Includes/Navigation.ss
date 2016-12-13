@@ -9,7 +9,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{$BaseUrl}"><img src="{$ThemeDir}/images/logo.png" /></a>
+        <a class="navbar-brand" href="{$BaseUrl}">Martin Luther King Jr. Celebration Week</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
