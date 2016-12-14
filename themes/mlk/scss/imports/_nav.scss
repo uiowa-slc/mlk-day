@@ -28,6 +28,13 @@ header.affix {
     }
 }
 
+.navbar-default {
+    background-color: black;
+    border-bottom: #eee;
+    border: black;
+    border-radius: 0px;
+}
+
 .navbar-brand {
     max-width: 200px;
     font-family: Besom;
@@ -45,7 +52,8 @@ header.affix {
         max-width: 100%;
 
         @media screen and (min-width: $screen-md-min) {
-            height: 50px;
+            height: 55px;
+            width: 415.5px;
         }
     }
 }
