@@ -28,11 +28,13 @@ header.affix {
     }
 }
 
-.navbar-default {
-    background-color: black;
-    border-bottom: #eee;
-    border: black;
-    border-radius: 0px;
+.navbar-toggle:before {
+    content:"Menu";
+    left:-50px;
+    top:4px;
+    position:absolute;
+    width:50px;
+    color: $navbar-default-link-color;
 }
 
 .navbar-brand {
@@ -43,8 +45,8 @@ header.affix {
 
     @media screen and (min-width: $screen-md-min) {
         max-width: 80%;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 13px;
+        padding-bottom: 10px;
     }
 
     img {

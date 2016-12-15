@@ -1,20 +1,13 @@
 <div class="bg-container">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="">
-
-				<% if $CoverImage %>
-						<picture class="img-responsive">
-				    	<source srcset="{$CoverImage.Fill(720,405).URL}, {$CoverImage.Fill(1366,768).URL} 2x" media="(max-width: 768px)">
-				    	<source srcset="{$CoverImage.Fill(1600,900).URL}, $CoverImage.Fill(1920,1080).jpg 2x">
-					    <img class="img-responsive" srcset="{$CoverImage.Fill(1366,768).URL}, {$CoverImage.Fill(1366,768).URL} 2x">
-					</picture>				
-				<% else %>
-					<img class="img-responsive" src="{$ThemeDir}/images/bg2017.jpg" />
-				<% end_if %>
-			</div>
-		</div>
-	</div>
+	<% if $CoverImage %>
+			<picture class="img-responsive">
+	    	<source srcset="{$CoverImage.Fill(720,405).URL}, {$CoverImage.Fill(1366,768).URL} 2x" media="(max-width: 768px)">
+	    	<source srcset="{$CoverImage.Fill(1600,900).URL}, $CoverImage.Fill(1920,1080).jpg 2x">
+		    <img class="img-responsive" srcset="{$CoverImage.Fill(1366,768).URL}, {$CoverImage.Fill(1366,768).URL} 2x">
+		</picture>				
+	<% else %>
+		<img src="{$ThemeDir}/images/bg2017.jpg" />
+	<% end_if %>
 </div>
 <% include Navigation %>
 	<div class= "container main-content">

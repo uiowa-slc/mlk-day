@@ -1,10 +1,13 @@
 /* Fix Division Bar Wrapper */
 .wrapper {
-	@extend .container;
-
-	padding-left: 0;
-	padding-right: 0;
+	width: 100%;
 	max-width: 100%;
+}
+.uiowa{
+	@media screen and (min-width: 980px) {
+		margin-left: 10px
+	}
+	
 }
 
 .division-topbar{
