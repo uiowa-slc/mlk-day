@@ -10,7 +10,7 @@
           <span class="icon-bar"></span>
         </button>
         <%--<a class="navbar-brand" href="{$BaseUrl}">Martin Luther King Jr. Celebration Week</a>--%>       
-        <a class="navbar-brand" href="{$BaseUrl}"><img src="{$ThemeDir}/images/logo2017.jpg" /></a>
+        <a class="navbar-brand" href="{$BaseUrl}"><img src="{$ThemeDir}/images/logo.jpg" /></a>
 
       </div>
 

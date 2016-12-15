@@ -6,7 +6,7 @@
 		    <img class="img-responsive" srcset="{$CoverImage.Fill(1366,768).URL}, {$CoverImage.Fill(1366,768).URL} 2x">
 		</picture>				
 	<% else %>
-		<img src="{$ThemeDir}/images/bg2017.jpg" />
+		<img src="{$ThemeDir}/images/bg.jpg" />
 	<% end_if %>
 </div>
 <% include Navigation %>
