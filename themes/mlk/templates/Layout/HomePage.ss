@@ -70,7 +70,7 @@
 								<% end_if %>
 
 								<% if $FacebookEventLink %>
-									<strong>Facebook: </strong>$ParsedFacebookEventLink <br />
+									<strong><a href="$ParsedFacebookEventLink">Facebook Event</a></strong>
 								<% end_if %>
 
 
