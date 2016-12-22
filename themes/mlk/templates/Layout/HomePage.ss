@@ -38,7 +38,7 @@
 								
 									<p class="eventlist-date">
 										<% if $Dates %>
-										<strong> Date & Time: </strong>
+										<strong> Date &amp; Time: </strong>
 										<% loop $Dates %>
 											<% with $StartDateTime %>
 												<time itemprop="startDate" datetime="$Format(c)">
@@ -70,7 +70,7 @@
 								<% end_if %>
 
 								<% if $FacebookEventLink %>
-									<strong>Facebook: </strong>$FacebookEventLink <br />
+									<strong>Facebook: </strong>$ParsedFacebookEventLink <br />
 								<% end_if %>
 
 
