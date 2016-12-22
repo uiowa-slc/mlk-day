@@ -31,9 +31,9 @@
 								<%-- if $Image %>
 									<a href="$AfterClassLink"><img src="$Image.URL" alt="$Title"></a>
 								<% end_if --%>
-
-
-						    	<h2><a href="$AfterClassLink">$Title </a></h2>
+								<div class="event">
+								<a href="$AfterClassLink" class="event__image-link"><img src="$Image.URL" alt="" role="presentation" class="event__image" /></a>
+						    	<h2 class="event__header"><a href="$AfterClassLink">$Title </a></h2>
 
 								
 									<p class="eventlist-date">
@@ -66,7 +66,7 @@
 								<% end_if %>
 
 								<% if $MoreInfoLink %>
-									<strong>Website: </strong><a href="$Link">$MoreInfoLink </a><br />
+									<a href="$MoreInfoLink"><strong>Website</strong></a><br />
 								<% end_if %>
 
 								<% if $FacebookEventLink %>
@@ -76,7 +76,7 @@
 
 								</p>
 								$Content
-
+							</div>
 								<hr />	
 				    		<% end_loop %>
 				    			<% else %>
