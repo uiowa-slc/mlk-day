@@ -15,7 +15,7 @@
 				
 				<section class="row $URLSegment $FirstLast">
 			   		<div class="col-md-3">
-			   			<h1 id="$URLSegment">$Title</h1>
+			   			<h1 id="$URLSegment" class="section-header">$Title</h1>
 			   		</div>
 
 			    	<div class="col-md-9 content-block">
