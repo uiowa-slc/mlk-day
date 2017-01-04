@@ -31,7 +31,7 @@
 								<%-- if $Image %>
 									<a href="$AfterClassLink"><img src="$Image.URL" alt="$Title"></a>
 								<% end_if --%>
-								<div class="event">
+								<div class="event" id="event-{$ID}">
 								<a href="$AfterClassLink" class="event__image-link"><img src="$Image.URL" alt="" role="presentation" class="event__image" /></a>
 						    	<h2 class="event__header"><a href="$AfterClassLink">$Title </a></h2>
 
