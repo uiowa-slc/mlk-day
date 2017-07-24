@@ -3,14 +3,16 @@
 	"description": "The SilverStripe Framework Installer",
 	"require": {
 		"php": ">=5.3.2",
-		"silverstripe/cms": "3.5.*@stable",
-		"silverstripe/framework": "3.5.*@stable",
+		"silverstripe/cms": "3.6.*@stable",
+		"silverstripe/framework": "3.6.*@stable",
 		"silverstripe-themes/simple": "*",
 		"nathancox/minify": "*",
 		"undefinedoffset/sortablegridfield": "*",
 		"colymba/gridfield-bulk-editing-tools": "*",
 		"md/division-bar": "dev-master",
-		"md/ac-json-events": "dev-master"
+		"md/ac-json-events": "dev-master",
+		"silverstripe/activedirectory" : "3.*"
+
 	},
 	"config": {
 		"process-timeout": 600	
@@ -24,6 +26,11 @@
 	    {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory"
+
         }
 	 ],
 	"minimum-stability": "dev"

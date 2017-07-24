@@ -30,3 +30,6 @@ siteconfig/
 reports/
 ac-json-events/
 cache/
+activedirectory/
+multivaluefield/
+queuedjobs/
