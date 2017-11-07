@@ -10,6 +10,7 @@
 		"undefinedoffset/sortablegridfield": "*",
 		"colymba/gridfield-bulk-editing-tools": "*",
 		"md/division-bar": "dev-master",
+		"md/division-analytics": "1.*",
 		"md/ac-json-events": "dev-master",
 		"silverstripe/activedirectory" : "3.*"
 
@@ -21,6 +22,11 @@
 	    {
 	        "type": "vcs",
 	        "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar"
+
+	    },
+	    {
+	        "type": "vcs",
+	        "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics"
 
 	    },
 	    {
