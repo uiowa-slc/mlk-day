@@ -5,7 +5,7 @@ $project = 'mysite';
 
 global $database;
 //!!!!!!!Define your database name:
-$database = 'mlk-2017';
+$database = 'mlk';
  
 // Use _ss_environment.php file for configuration
 require_once("conf/ConfigureFromEnv.php");
@@ -21,6 +21,7 @@ if (class_exists('SiteTree')) SiteTree::enable_nested_urls();
 if(Director::isLive()) {
 	Director::forceSSL();
 }
+Authenticator::unregister('MemberAuthenticator');
 Authenticator::set_default_authenticator('SAMLAuthenticator');
 
 SSViewer::set_theme('division-subtheme');
