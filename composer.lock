@@ -85,16 +85,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "dev-master",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "33c3629300a1f7d7379b4bd51f86924fe918fcdf"
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/33c3629300a1f7d7379b4bd51f86924fe918fcdf",
-                "reference": "33c3629300a1f7d7379b4bd51f86924fe918fcdf",
+                "url": "https://api.github.com/repos/composer/installers/zipball/9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
             },
             "require-dev": {
                 "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "^4.8.36"
+                "phpunit/phpunit": "4.1.*"
             },
             "type": "composer-plugin",
             "extra": {
@@ -177,18 +177,15 @@
                 "lavalite",
                 "lithium",
                 "magento",
-                "majima",
                 "mako",
                 "mediawiki",
                 "modulework",
-                "modx",
                 "moodle",
                 "osclass",
                 "phpbb",
                 "piwik",
                 "ppi",
                 "puppet",
-                "pxcms",
                 "reindex",
                 "roundcube",
                 "shopware",
@@ -201,7 +198,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-12-01 09:41:33"
+            "time": "2017-08-09T07:53:48+00:00"
         },
         {
             "name": "embed/embed",
@@ -259,12 +256,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/php-graph-sdk.git",
-                "reference": "61a19c36815ec35c7b198015e823de814b8b3e9d"
+                "reference": "6eb970d5906dc61a96324b92ee673f177a83cf20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/61a19c36815ec35c7b198015e823de814b8b3e9d",
-                "reference": "61a19c36815ec35c7b198015e823de814b8b3e9d",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/6eb970d5906dc61a96324b92ee673f177a83cf20",
+                "reference": "6eb970d5906dc61a96324b92ee673f177a83cf20",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +306,7 @@
                 "facebook",
                 "sdk"
             ],
-            "time": "2017-12-04 20:15:00"
+            "time": "2017-12-06 20:21:26"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -382,12 +379,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "e9cdab6ff93ff789b5b599326c727f51d10893a6"
+                "reference": "2e48ae638dc0bf0849772f5590835fcd700a2e1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/e9cdab6ff93ff789b5b599326c727f51d10893a6",
-                "reference": "e9cdab6ff93ff789b5b599326c727f51d10893a6",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/2e48ae638dc0bf0849772f5590835fcd700a2e1d",
+                "reference": "2e48ae638dc0bf0849772f5590835fcd700a2e1d",
                 "shasum": ""
             },
             "require": {
@@ -425,7 +422,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2017-10-06 12:25:00"
+            "time": "2017-12-07 21:04:15"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -897,12 +894,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "3bbd5e705391a15cbf971cb3acf8a36679a8e970"
+                "reference": "a319059f55ffac3ae291171aee3e11e8789a8cb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/3bbd5e705391a15cbf971cb3acf8a36679a8e970",
-                "reference": "3bbd5e705391a15cbf971cb3acf8a36679a8e970",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/a319059f55ffac3ae291171aee3e11e8789a8cb9",
+                "reference": "a319059f55ffac3ae291171aee3e11e8789a8cb9",
                 "shasum": ""
             },
             "require": {
@@ -914,6 +911,7 @@
                 "md/rss-display": "*",
                 "md/silverstripe-amp": "dev-master",
                 "micschk/silverstripe-gridfieldsitetreebuttons": "*",
+                "nathancox/sortableuploadfield": "*",
                 "normann/gridfieldpaginatorwithshowall": "*",
                 "olliepop/fbpagefeed": "dev-master",
                 "php": ">=5.3.2",
@@ -953,7 +951,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2017-12-05 16:40:34"
+            "time": "2017-12-08 19:13:28"
         },
         {
             "name": "md/rss-display",
@@ -1119,6 +1117,43 @@
                 "yml"
             ],
             "time": "2017-02-24T16:06:33+00:00"
+        },
+        {
+            "name": "nathancox/sortableuploadfield",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nathancox/silverstripe-sortableuploadfield.git",
+                "reference": "de254dc624ab1c253c5b28232595ca89bffeedfa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nathancox/silverstripe-sortableuploadfield/zipball/de254dc624ab1c253c5b28232595ca89bffeedfa",
+                "reference": "de254dc624ab1c253c5b28232595ca89bffeedfa",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "^3.0.0"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Cox",
+                    "email": "me@nathan.net.nz"
+                }
+            ],
+            "description": "A subclass of UploadField that allows for sorting the managed files.",
+            "keywords": [
+                "cms",
+                "files",
+                "silverstripe",
+                "uploadfield"
+            ],
+            "time": "2016-11-24 01:20:31"
         },
         {
             "name": "nikic/php-parser",
@@ -3038,7 +3073,7 @@
         },
         {
             "name": "unclecheese/eventcalendar",
-            "version": "1.0.22",
+            "version": "1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-event-calendar.git",
