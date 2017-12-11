@@ -85,16 +85,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "dev-master",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "33c3629300a1f7d7379b4bd51f86924fe918fcdf"
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/33c3629300a1f7d7379b4bd51f86924fe918fcdf",
-                "reference": "33c3629300a1f7d7379b4bd51f86924fe918fcdf",
+                "url": "https://api.github.com/repos/composer/installers/zipball/9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
             },
             "require-dev": {
                 "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "^4.8.36"
+                "phpunit/phpunit": "4.1.*"
             },
             "type": "composer-plugin",
             "extra": {
@@ -177,18 +177,15 @@
                 "lavalite",
                 "lithium",
                 "magento",
-                "majima",
                 "mako",
                 "mediawiki",
                 "modulework",
-                "modx",
                 "moodle",
                 "osclass",
                 "phpbb",
                 "piwik",
                 "ppi",
                 "puppet",
-                "pxcms",
                 "reindex",
                 "roundcube",
                 "shopware",
@@ -201,7 +198,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-12-01 09:41:33"
+            "time": "2017-08-09T07:53:48+00:00"
         },
         {
             "name": "embed/embed",
@@ -1327,12 +1324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PlatoCreative/silverstripe-typekit.git",
-                "reference": "932420f347b7794749583acf7f452f64c62c4fb1"
+                "reference": "1a7262eb43894c6a8719fe49c308469d0261f892"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PlatoCreative/silverstripe-typekit/zipball/932420f347b7794749583acf7f452f64c62c4fb1",
-                "reference": "932420f347b7794749583acf7f452f64c62c4fb1",
+                "url": "https://api.github.com/repos/PlatoCreative/silverstripe-typekit/zipball/1a7262eb43894c6a8719fe49c308469d0261f892",
+                "reference": "1a7262eb43894c6a8719fe49c308469d0261f892",
                 "shasum": ""
             },
             "require": {
@@ -1366,7 +1363,7 @@
                 "typekit",
                 "typography"
             ],
-            "time": "2017-11-09 00:03:30"
+            "time": "2017-12-05 02:58:39"
         },
         {
             "name": "psr/http-message",
