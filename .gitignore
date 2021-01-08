@@ -3,8 +3,8 @@
 /vendor/
 /themes/simple/
 /resources/
-/public/resources/
 /_resources/
+/public/resources/
 /public/_resources/
 /public/assets/
 .sass-cache/*
@@ -16,5 +16,6 @@ nocaptcha.yml
 smtp.yml
 /node_modules/
 /npm-debug.log
-/cache
+public/assets.zip
 /.phpintel
+/.tmp
