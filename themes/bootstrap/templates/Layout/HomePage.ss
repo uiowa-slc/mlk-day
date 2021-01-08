@@ -4,7 +4,7 @@
 
 <main class="container-xl my-5">
     <div class="row justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-9">
 
             <article id="content">
 
