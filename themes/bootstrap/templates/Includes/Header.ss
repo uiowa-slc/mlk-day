@@ -19,7 +19,7 @@
                                     <a class="nav-link" href="$Link">$MenuTitle.XML</a>
                                 </li>
                             <% end_loop %>
-                                <li class="nav-item"><a class="nav-link text-uppercase" href="$SiteConfig.FacebookLink" title="$Title.XML"><i class="fab fa-facebook"></i></a></li>
+                                <li class="nav-item"><a class="nav-link text-uppercase" href="$SiteConfig.FacebookLink" title="$Title.XML" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
                         </ul>
                     </div>
                 </nav>

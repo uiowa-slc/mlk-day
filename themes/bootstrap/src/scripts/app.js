@@ -2,7 +2,6 @@ $(document).ready(function() {
 
     if($( ".masonry-grid" ).length){
 
-
             $('.masonry-grid').isotope({
                 "layoutMode": "masonry",
                 "itemSelector": ".masonry-grid-item",
@@ -11,10 +10,6 @@ $(document).ready(function() {
                     "gutter" : 20
                 }
              });
-
-
-
-
     }
 
 
@@ -30,6 +25,14 @@ $(document).ready(function() {
         $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
     });
 
+    $('.poster-gallery').magnificPopup({
+      delegate: 'a.poster-gallery-link', // child items selector, by clicking on it popup will open
+      type: 'image',
+      gallery: {
+        enabled: true
+      }
+      // other options
+    });
 
 });
 

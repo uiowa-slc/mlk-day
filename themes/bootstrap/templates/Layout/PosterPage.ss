@@ -22,10 +22,10 @@
         <% end_if %>
     </div>
 
-    <div class="masonry-grid">
+    <div class="masonry-grid poster-gallery">
         <% loop $Posters %>
             <div class="masonry-grid-item">
-                <img data-src="$Image.ScaleWidth(600).URL" class="d-block w-100 lazyload" alt="" role="presentation" data-aspectratio="$Image.Ratio" />
+                <a href="$Image.URL" class="poster-gallery-link"><img data-src="$Image.ScaleWidth(600).URL" class="d-block w-100 lazyload" alt="" role="presentation" data-aspectratio="$Image.Ratio" /></a>
             </div>
         <% end_loop %>
 
