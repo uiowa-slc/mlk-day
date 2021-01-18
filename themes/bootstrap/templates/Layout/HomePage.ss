@@ -7,8 +7,6 @@
         <div class="col-lg-9">
 
             <article id="content">
-
-                <h1 class="page-header">$Title</h1>
                 $Content
                 $Form
                 $PageComments
